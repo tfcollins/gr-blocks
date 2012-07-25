@@ -1,0 +1,8 @@
+/home/traviscollins/git/blocks/gr-BLISS/build/swig/CMakeFiles/_BLISS_swig.dir
+/home/traviscollins/git/blocks/gr-BLISS/build/swig/CMakeFiles/_BLISS_swig_doc_tag.dir
+/home/traviscollins/git/blocks/gr-BLISS/build/swig/CMakeFiles/_BLISS_swig_swig_tag.dir
+/home/traviscollins/git/blocks/gr-BLISS/build/lib/CMakeFiles/gnuradio-BLISS.dir
+/home/traviscollins/git/blocks/gr-BLISS/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/traviscollins/git/blocks/gr-BLISS/build/python/CMakeFiles/pygen_python_ce810.dir
+/home/traviscollins/git/blocks/gr-BLISS/build/swig/CMakeFiles/pygen_swig_0c3d0.dir
+/home/traviscollins/git/blocks/gr-BLISS/build/CMakeFiles/uninstall.dir

@@ -1,0 +1,8 @@
+/home/traviscollins/git/blocks/gr-examine_packet/build/swig/CMakeFiles/_examine_packet_swig.dir
+/home/traviscollins/git/blocks/gr-examine_packet/build/swig/CMakeFiles/_examine_packet_swig_doc_tag.dir
+/home/traviscollins/git/blocks/gr-examine_packet/build/swig/CMakeFiles/_examine_packet_swig_swig_tag.dir
+/home/traviscollins/git/blocks/gr-examine_packet/build/lib/CMakeFiles/gnuradio-examine_packet.dir
+/home/traviscollins/git/blocks/gr-examine_packet/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/traviscollins/git/blocks/gr-examine_packet/build/python/CMakeFiles/pygen_python_5c3d2.dir
+/home/traviscollins/git/blocks/gr-examine_packet/build/swig/CMakeFiles/pygen_swig_8ee2e.dir
+/home/traviscollins/git/blocks/gr-examine_packet/build/CMakeFiles/uninstall.dir

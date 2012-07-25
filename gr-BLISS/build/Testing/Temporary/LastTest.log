@@ -1,0 +1,34 @@
+Start testing: Jul 25 13:59 EDT
+----------------------------------------------------------
+1/1 Testing: qa_BLISS
+1/1 Test: qa_BLISS
+Command: "/bin/sh" "/home/traviscollins/git/blocks/gr-BLISS/build/python/qa_BLISS_test.sh"
+Directory: /home/traviscollins/git/blocks/gr-BLISS/build/python
+"qa_BLISS" start time: Jul 25 13:59 EDT
+Output:
+----------------------------------------------------------
+0
+0
+0
+0
+0
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.106s
+
+OK
+(0.0, 0.0, 0.0, 0.0, 0.0)
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Passed.
+"qa_BLISS" end time: Jul 25 13:59 EDT
+"qa_BLISS" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 25 13:59 EDT

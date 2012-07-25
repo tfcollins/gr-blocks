@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_93d93b3b3e3885ffb70c8b5f5c12a4a5" kind="dir">
+    <compoundname>/home/traviscollins/git/blocks/gr-examine_packet/include/</compoundname>
+    <innerfile refid="examine__packet__api_8h">examine_packet_api.h</innerfile>
+    <innerfile refid="examine__packet__examiner_8h">examine_packet_examiner.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/traviscollins/git/blocks/gr-examine_packet/include/"/>
+  </compounddef>
+</doxygen>

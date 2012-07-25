@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classBLISS__equalizer" kind="class" prot="public">
+    <compoundname>BLISS_equalizer</compoundname>
+    <includes refid="BLISS__equalizer_8h" local="no">BLISS_equalizer.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classBLISS__equalizer_1a594e64170c6836a656b04aa3d826c7d8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend __GR_ATTR_IMPORT <ref refid="BLISS__equalizer_8h_1af951ec894f719cc3dcfb7624ce1a3418" kindref="member">BLISS_equalizer_sptr</ref></type>
+        <definition>__GR_ATTR_IMPORT BLISS_equalizer_sptr BLISS_make_equalizer</definition>
+        <argsstring>()</argsstring>
+        <name>BLISS_make_equalizer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_equalizer.h" line="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classBLISS__equalizer_1ae924341c22edccec97214130f33e8099" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BLISS_equalizer::BLISS_equalizer</definition>
+        <argsstring>()</argsstring>
+        <name>BLISS_equalizer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_equalizer.h" line="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classBLISS__equalizer_1a674b7efc42e272eea4ae275a178a65f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BLISS_equalizer::~BLISS_equalizer</definition>
+        <argsstring>()</argsstring>
+        <name>~BLISS_equalizer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_equalizer.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classBLISS__equalizer_1ac6383b4015a46dcc52e89845da88c4ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int BLISS_equalizer::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_equalizer.h" line="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_equalizer.h" line="37" bodyfile="/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_equalizer.h" bodystart="36" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classBLISS__equalizer_1ae924341c22edccec97214130f33e8099" prot="private" virt="non-virtual"><scope>BLISS_equalizer</scope><name>BLISS_equalizer</name></member>
+      <member refid="classBLISS__equalizer_1a594e64170c6836a656b04aa3d826c7d8" prot="private" virt="non-virtual"><scope>BLISS_equalizer</scope><name>BLISS_make_equalizer</name></member>
+      <member refid="classBLISS__equalizer_1ac6383b4015a46dcc52e89845da88c4ea" prot="public" virt="non-virtual"><scope>BLISS_equalizer</scope><name>work</name></member>
+      <member refid="classBLISS__equalizer_1a674b7efc42e272eea4ae275a178a65f3" prot="public" virt="non-virtual"><scope>BLISS_equalizer</scope><name>~BLISS_equalizer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

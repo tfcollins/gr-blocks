@@ -1,0 +1,53 @@
+/* -*- c++ -*- */
+/* 
+ * Copyright 2012 <+YOU OR YOUR COMPANY+>.
+ * 
+ * This is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 3, or (at your option)
+ * any later version.
+ * 
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this software; see the file COPYING.  If not, write to
+ * the Free Software Foundation, Inc., 51 Franklin Street,
+ * Boston, MA 02110-1301, USA.
+ */
+
+#ifndef INCLUDED_EXAMINE_PACKET_EXAMINER_H
+#define INCLUDED_EXAMINE_PACKET_EXAMINER_H
+
+#include <examine_packet_api.h>
+#include <gr_block.h>
+
+class examine_packet_examiner;
+typedef boost::shared_ptr<examine_packet_examiner> examine_packet_examiner_sptr;
+
+EXAMINE_PACKET_API examine_packet_examiner_sptr examine_packet_make_examiner ();
+
+/*!
+ * \brief <+description+>
+ *
+ */
+class EXAMINE_PACKET_API examine_packet_examiner : public gr_block
+{
+	friend EXAMINE_PACKET_API examine_packet_examiner_sptr examine_packet_make_examiner ();
+
+	examine_packet_examiner ();
+
+ public:
+	~examine_packet_examiner ();
+
+
+  int general_work (int noutput_items,
+		    gr_vector_int &ninput_items,
+		    gr_vector_const_void_star &input_items,
+		    gr_vector_void_star &output_items);
+};
+
+#endif /* INCLUDED_EXAMINE_PACKET_EXAMINER_H */
+

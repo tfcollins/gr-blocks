@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_91eb5fe1b59f8be1d624ab8011175931" kind="dir">
+    <compoundname>/home/traviscollins/git/blocks/gr-BLISS/include/</compoundname>
+    <innerfile refid="BLISS__api_8h">BLISS_api.h</innerfile>
+    <innerfile refid="BLISS__equalizer_8h">BLISS_equalizer.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/traviscollins/git/blocks/gr-BLISS/include/"/>
+  </compounddef>
+</doxygen>
