@@ -10,10 +10,10 @@
 gruel/attributes.h
 -
 
-../include/BLISS_equalizer.h
+../include/BLISS_vector_conjugate.h
 BLISS_api.h
 -
-gr_sync_block.h
+gr_block.h
 -
 
 /home/traviscollins/git/blocks/gr-BLISS/build/swig/BLISS_swigPYTHON_wrap.cxx
@@ -67,8 +67,8 @@ functional
 -
 iterator
 -
-BLISS_equalizer.h
-/home/traviscollins/git/blocks/gr-BLISS/build/swig/BLISS_equalizer.h
+BLISS_vector_conjugate.h
+/home/traviscollins/git/blocks/gr-BLISS/build/swig/BLISS_vector_conjugate.h
 limits.h
 -
 
@@ -458,12 +458,6 @@ gr_types.h
 gr_core_api.h
 -
 boost/shared_ptr.hpp
--
-
-/usr/local/include/gnuradio/gr_sync_block.h
-gr_core_api.h
--
-gr_block.h
 -
 
 /usr/local/include/gnuradio/gr_tags.h

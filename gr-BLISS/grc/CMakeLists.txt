@@ -18,5 +18,6 @@
 # Boston, MA 02110-1301, USA.
 
 install(FILES
-    BLISS_equalizer.xml DESTINATION share/gnuradio/grc/blocks
+    BLISS_equalizer.xml
+    BLISS_vector_conjugate.xml DESTINATION share/gnuradio/grc/blocks
 )

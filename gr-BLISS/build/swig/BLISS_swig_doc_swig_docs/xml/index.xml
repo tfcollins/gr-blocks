@@ -45,6 +45,12 @@
     <member refid="classBLISS__equalizer_1a674b7efc42e272eea4ae275a178a65f3" kind="function"><name>~BLISS_equalizer</name></member>
     <member refid="classBLISS__equalizer_1ac6383b4015a46dcc52e89845da88c4ea" kind="function"><name>work</name></member>
   </compound>
+  <compound refid="classBLISS__vector__conjugate" kind="class"><name>BLISS_vector_conjugate</name>
+    <member refid="classBLISS__vector__conjugate_1a33b3d4ac71983f5b491119949ff5e40c" kind="friend"><name>BLISS_make_vector_conjugate</name></member>
+    <member refid="classBLISS__vector__conjugate_1a7bf1a0ef1f3d81f9b92e210428ffbf41" kind="function"><name>BLISS_vector_conjugate</name></member>
+    <member refid="classBLISS__vector__conjugate_1a614a0cdf9d493988e20259d7a0c9604f" kind="function"><name>~BLISS_vector_conjugate</name></member>
+    <member refid="classBLISS__vector__conjugate_1a303e9e5d7a53ee5f00157e4368ec64cd" kind="function"><name>general_work</name></member>
+  </compound>
   <compound refid="classstd_1_1complex" kind="class"><name>std::complex</name>
   </compound>
   <compound refid="classstd_1_1map_1_1const__iterator" kind="class"><name>std::map::const_iterator</name>
@@ -67,8 +73,6 @@
   </compound>
   <compound refid="classstd_1_1list_1_1const__iterator" kind="class"><name>std::list::const_iterator</name>
   </compound>
-  <compound refid="classstd_1_1deque_1_1const__reverse__iterator" kind="class"><name>std::deque::const_reverse_iterator</name>
-  </compound>
   <compound refid="classstd_1_1map_1_1const__reverse__iterator" kind="class"><name>std::map::const_reverse_iterator</name>
   </compound>
   <compound refid="classstd_1_1multimap_1_1const__reverse__iterator" kind="class"><name>std::multimap::const_reverse_iterator</name>
@@ -83,9 +87,11 @@
   </compound>
   <compound refid="classstd_1_1string_1_1const__reverse__iterator" kind="class"><name>std::string::const_reverse_iterator</name>
   </compound>
+  <compound refid="classstd_1_1list_1_1const__reverse__iterator" kind="class"><name>std::list::const_reverse_iterator</name>
+  </compound>
   <compound refid="classstd_1_1wstring_1_1const__reverse__iterator" kind="class"><name>std::wstring::const_reverse_iterator</name>
   </compound>
-  <compound refid="classstd_1_1list_1_1const__reverse__iterator" kind="class"><name>std::list::const_reverse_iterator</name>
+  <compound refid="classstd_1_1deque_1_1const__reverse__iterator" kind="class"><name>std::deque::const_reverse_iterator</name>
   </compound>
   <compound refid="classstd_1_1deque" kind="class"><name>std::deque</name>
     <member refid="classstd_1_1deque_1a090b92581de438d2e14bedc190f0b0f9" kind="variable"><name>elements</name></member>
@@ -110,6 +116,8 @@
   </compound>
   <compound refid="classstd_1_1istringstream" kind="class"><name>std::istringstream</name>
   </compound>
+  <compound refid="classstd_1_1map_1_1iterator" kind="class"><name>std::map::iterator</name>
+  </compound>
   <compound refid="classstd_1_1multimap_1_1iterator" kind="class"><name>std::multimap::iterator</name>
   </compound>
   <compound refid="classstd_1_1set_1_1iterator" kind="class"><name>std::set::iterator</name>
@@ -123,8 +131,6 @@
   <compound refid="classstd_1_1wstring_1_1iterator" kind="class"><name>std::wstring::iterator</name>
   </compound>
   <compound refid="classstd_1_1multiset_1_1iterator" kind="class"><name>std::multiset::iterator</name>
-  </compound>
-  <compound refid="classstd_1_1map_1_1iterator" kind="class"><name>std::map::iterator</name>
   </compound>
   <compound refid="classstd_1_1deque_1_1iterator" kind="class"><name>std::deque::iterator</name>
   </compound>
@@ -166,25 +172,25 @@
   </compound>
   <compound refid="classstd_1_1range__error" kind="class"><name>std::range_error</name>
   </compound>
-  <compound refid="classstd_1_1map_1_1reverse__iterator" kind="class"><name>std::map::reverse_iterator</name>
-  </compound>
-  <compound refid="classstd_1_1list_1_1reverse__iterator" kind="class"><name>std::list::reverse_iterator</name>
-  </compound>
-  <compound refid="classstd_1_1multimap_1_1reverse__iterator" kind="class"><name>std::multimap::reverse_iterator</name>
-  </compound>
   <compound refid="classstd_1_1set_1_1reverse__iterator" kind="class"><name>std::set::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1map_1_1reverse__iterator" kind="class"><name>std::map::reverse_iterator</name>
   </compound>
   <compound refid="classstd_1_1basic__string_1_1reverse__iterator" kind="class"><name>std::basic_string::reverse_iterator</name>
   </compound>
+  <compound refid="classstd_1_1string_1_1reverse__iterator" kind="class"><name>std::string::reverse_iterator</name>
+  </compound>
   <compound refid="classstd_1_1multiset_1_1reverse__iterator" kind="class"><name>std::multiset::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1multimap_1_1reverse__iterator" kind="class"><name>std::multimap::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1list_1_1reverse__iterator" kind="class"><name>std::list::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1vector_1_1reverse__iterator" kind="class"><name>std::vector::reverse_iterator</name>
   </compound>
   <compound refid="classstd_1_1wstring_1_1reverse__iterator" kind="class"><name>std::wstring::reverse_iterator</name>
   </compound>
   <compound refid="classstd_1_1deque_1_1reverse__iterator" kind="class"><name>std::deque::reverse_iterator</name>
-  </compound>
-  <compound refid="classstd_1_1string_1_1reverse__iterator" kind="class"><name>std::string::reverse_iterator</name>
-  </compound>
-  <compound refid="classstd_1_1vector_1_1reverse__iterator" kind="class"><name>std::vector::reverse_iterator</name>
   </compound>
   <compound refid="classstd_1_1runtime__error" kind="class"><name>std::runtime_error</name>
   </compound>
@@ -246,6 +252,10 @@
   <compound refid="BLISS__equalizer_8h" kind="file"><name>BLISS_equalizer.h</name>
     <member refid="BLISS__equalizer_8h_1af951ec894f719cc3dcfb7624ce1a3418" kind="typedef"><name>BLISS_equalizer_sptr</name></member>
     <member refid="BLISS__equalizer_8h_1a594e64170c6836a656b04aa3d826c7d8" kind="function"><name>BLISS_make_equalizer</name></member>
+  </compound>
+  <compound refid="BLISS__vector__conjugate_8h" kind="file"><name>BLISS_vector_conjugate.h</name>
+    <member refid="BLISS__vector__conjugate_8h_1a007f852bfe4fd0071332d5bde7d691c6" kind="typedef"><name>BLISS_vector_conjugate_sptr</name></member>
+    <member refid="BLISS__vector__conjugate_8h_1a33b3d4ac71983f5b491119949ff5e40c" kind="function"><name>BLISS_make_vector_conjugate</name></member>
   </compound>
   <compound refid="dir_91eb5fe1b59f8be1d624ab8011175931" kind="dir"><name>/home/traviscollins/git/blocks/gr-BLISS/include/</name>
   </compound>

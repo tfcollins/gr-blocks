@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classBLISS__vector__conjugate" kind="class" prot="public">
+    <compoundname>BLISS_vector_conjugate</compoundname>
+    <includes refid="BLISS__vector__conjugate_8h" local="no">BLISS_vector_conjugate.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classBLISS__vector__conjugate_1a33b3d4ac71983f5b491119949ff5e40c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend __GR_ATTR_IMPORT <ref refid="BLISS__vector__conjugate_8h_1a007f852bfe4fd0071332d5bde7d691c6" kindref="member">BLISS_vector_conjugate_sptr</ref></type>
+        <definition>__GR_ATTR_IMPORT BLISS_vector_conjugate_sptr BLISS_make_vector_conjugate</definition>
+        <argsstring>()</argsstring>
+        <name>BLISS_make_vector_conjugate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_vector_conjugate.h" line="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classBLISS__vector__conjugate_1a7bf1a0ef1f3d81f9b92e210428ffbf41" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BLISS_vector_conjugate::BLISS_vector_conjugate</definition>
+        <argsstring>()</argsstring>
+        <name>BLISS_vector_conjugate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_vector_conjugate.h" line="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classBLISS__vector__conjugate_1a614a0cdf9d493988e20259d7a0c9604f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BLISS_vector_conjugate::~BLISS_vector_conjugate</definition>
+        <argsstring>()</argsstring>
+        <name>~BLISS_vector_conjugate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_vector_conjugate.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classBLISS__vector__conjugate_1a303e9e5d7a53ee5f00157e4368ec64cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int BLISS_vector_conjugate::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_vector_conjugate.h" line="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_vector_conjugate.h" line="37" bodyfile="/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_vector_conjugate.h" bodystart="36" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classBLISS__vector__conjugate_1a33b3d4ac71983f5b491119949ff5e40c" prot="private" virt="non-virtual"><scope>BLISS_vector_conjugate</scope><name>BLISS_make_vector_conjugate</name></member>
+      <member refid="classBLISS__vector__conjugate_1a7bf1a0ef1f3d81f9b92e210428ffbf41" prot="private" virt="non-virtual"><scope>BLISS_vector_conjugate</scope><name>BLISS_vector_conjugate</name></member>
+      <member refid="classBLISS__vector__conjugate_1a303e9e5d7a53ee5f00157e4368ec64cd" prot="public" virt="non-virtual"><scope>BLISS_vector_conjugate</scope><name>general_work</name></member>
+      <member refid="classBLISS__vector__conjugate_1a614a0cdf9d493988e20259d7a0c9604f" prot="public" virt="non-virtual"><scope>BLISS_vector_conjugate</scope><name>~BLISS_vector_conjugate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

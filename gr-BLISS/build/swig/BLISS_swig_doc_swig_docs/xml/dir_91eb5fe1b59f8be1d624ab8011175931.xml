@@ -4,6 +4,7 @@
     <compoundname>/home/traviscollins/git/blocks/gr-BLISS/include/</compoundname>
     <innerfile refid="BLISS__api_8h">BLISS_api.h</innerfile>
     <innerfile refid="BLISS__equalizer_8h">BLISS_equalizer.h</innerfile>
+    <innerfile refid="BLISS__vector__conjugate_8h">BLISS_vector_conjugate.h</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

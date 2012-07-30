@@ -4,6 +4,7 @@
     <compoundname>BLISS_api.h</compoundname>
     <includes local="no">gruel/attributes.h</includes>
     <includedby refid="BLISS__equalizer_8h" local="no">/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_equalizer.h</includedby>
+    <includedby refid="BLISS__vector__conjugate_8h" local="no">/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_vector_conjugate.h</includedby>
     <incdepgraph>
       <node id="1">
         <label>gruel/attributes.h</label>
@@ -16,10 +17,16 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="4">
+        <label>/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_vector_conjugate.h</label>
+        <link refid="BLISS__vector__conjugate_8h"/>
+      </node>
       <node id="2">
         <label>/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_api.h</label>
         <link refid="BLISS_api.h"/>
         <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="3">

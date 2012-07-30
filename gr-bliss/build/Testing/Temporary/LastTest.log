@@ -1,0 +1,33 @@
+Start testing: Jul 30 17:18 EDT
+----------------------------------------------------------
+1/1 Testing: qa_howto
+1/1 Test: qa_howto
+Command: "/bin/sh" "/home/traviscollins/git/blocks/gr-bliss/build/python/qa_howto_test.sh"
+Directory: /home/traviscollins/git/blocks/gr-bliss/build/python
+"qa_howto" start time: Jul 30 17:18 EDT
+Output:
+----------------------------------------------------------
+E
+======================================================================
+ERROR: test_001_bliss_correlator (__main__.qa_bliss)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/traviscollins/git/blocks/gr-bliss/python/qa_bliss.py", line 38, in test_001_bliss_correlator
+    src = gr.vector_source_f (src_data)
+  File "/usr/local/lib/python2.7/dist-packages/gnuradio/gr/gnuradio_core_gengen.py", line 572, in vector_source_f
+    return _gnuradio_core_gengen.vector_source_f(*args, **kwargs)
+TypeError: in method 'vector_source_f', argument 1 of type 'std::vector< float,std::allocator< float > > const &'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (errors=1)
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Failed.
+"qa_howto" end time: Jul 30 17:18 EDT
+"qa_howto" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 30 17:18 EDT

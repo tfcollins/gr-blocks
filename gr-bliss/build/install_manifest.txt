@@ -1,0 +1,13 @@
+/usr/local/include/bliss/bliss_api.h
+/usr/local/include/bliss/bliss_correlator_vcvc.h
+/usr/local/lib/libgnuradio-bliss.so
+/usr/local/lib/python2.7/dist-packages/bliss/_bliss_swig.so
+/usr/local/lib/python2.7/dist-packages/bliss/bliss_swig.py
+/usr/local/lib/python2.7/dist-packages/bliss/bliss_swig.pyc
+/usr/local/lib/python2.7/dist-packages/bliss/bliss_swig.pyo
+/usr/local/include/bliss/swig/bliss_swig.i
+/usr/local/include/bliss/swig/bliss_swig_doc.i
+/usr/local/lib/python2.7/dist-packages/bliss/__init__.py
+/usr/local/lib/python2.7/dist-packages/bliss/__init__.pyc
+/usr/local/lib/python2.7/dist-packages/bliss/__init__.pyo
+/usr/local/share/gnuradio/grc/blocks/bliss_correlator_vcvc.xml

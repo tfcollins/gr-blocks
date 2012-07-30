@@ -3,7 +3,7 @@
 
 swig/CMakeFiles/_BLISS_swig.dir/BLISS_swigPYTHON_wrap.cxx.o
  ../include/BLISS_api.h
- ../include/BLISS_equalizer.h
+ ../include/BLISS_vector_conjugate.h
  /home/traviscollins/git/blocks/gr-BLISS/build/swig/BLISS_swigPYTHON_wrap.cxx
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
@@ -74,7 +74,6 @@ swig/CMakeFiles/_BLISS_swig.dir/BLISS_swigPYTHON_wrap.cxx.o
  /usr/local/include/gnuradio/gr_msg_accepter.h
  /usr/local/include/gnuradio/gr_runtime_types.h
  /usr/local/include/gnuradio/gr_sptr_magic.h
- /usr/local/include/gnuradio/gr_sync_block.h
  /usr/local/include/gnuradio/gr_tags.h
  /usr/local/include/gnuradio/gr_types.h
  /usr/local/include/gruel/api.h

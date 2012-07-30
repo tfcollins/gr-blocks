@@ -5,24 +5,24 @@
     <includes refid="BLISS__api_8h" local="no">BLISS_api.h</includes>
     <includes local="no">gr_sync_block.h</includes>
     <incdepgraph>
-      <node id="6">
+      <node id="7">
         <label>gruel/attributes.h</label>
       </node>
-      <node id="7">
+      <node id="8">
         <label>gr_sync_block.h</label>
       </node>
-      <node id="5">
+      <node id="6">
         <label>BLISS_api.h</label>
         <link refid="BLISS__api_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="4">
+      <node id="5">
         <label>/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_equalizer.h</label>
         <link refid="BLISS_equalizer.h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
     </incdepgraph>

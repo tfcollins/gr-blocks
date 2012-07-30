@@ -1,34 +1,37 @@
-Start testing: Jul 25 13:59 EDT
+Start testing: Jul 30 16:43 EDT
 ----------------------------------------------------------
-1/1 Testing: qa_BLISS
-1/1 Test: qa_BLISS
-Command: "/bin/sh" "/home/traviscollins/git/blocks/gr-BLISS/build/python/qa_BLISS_test.sh"
+1/1 Testing: qa_vector_conjugate
+1/1 Test: qa_vector_conjugate
+Command: "/bin/sh" "/home/traviscollins/git/blocks/gr-BLISS/build/python/qa_vector_conjugate_test.sh"
 Directory: /home/traviscollins/git/blocks/gr-BLISS/build/python
-"qa_BLISS" start time: Jul 25 13:59 EDT
+"qa_vector_conjugate" start time: Jul 30 16:43 EDT
 Output:
 ----------------------------------------------------------
-0
-0
-0
-0
-0
-0.000000
-0.000000
-0.000000
-0.000000
-0.000000
-.
+E
+======================================================================
+ERROR: test_001_bliss_conjugate (__main__.qa_BLISS)
 ----------------------------------------------------------------------
-Ran 1 test in 0.106s
+Traceback (most recent call last):
+  File "/home/traviscollins/git/blocks/gr-BLISS/python/qa_BLISS_vector_conjugate.py", line 39, in test_001_bliss_conjugate
+    self.tb.connect (src, sqr)
+  File "/usr/local/lib/python2.7/dist-packages/gnuradio/gr/top_block.py", line 124, in connect
+    self._connect(points[i-1], points[i])
+  File "/usr/local/lib/python2.7/dist-packages/gnuradio/gr/top_block.py", line 130, in _connect
+    dst_block.to_basic_block(), dst_port)
+  File "/usr/local/lib/python2.7/dist-packages/gnuradio/gr/gnuradio_core_runtime.py", line 1836, in primitive_connect
+    return _gnuradio_core_runtime.gr_top_block_sptr_primitive_connect(self, *args)
+ValueError: itemsize mismatch: vector_source_f(1):0 using 4, vector_conjugate(2):0 using 8
 
-OK
-(0.0, 0.0, 0.0, 0.0, 0.0)
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
 <end of output>
-Test time =   0.33 sec
+Test time =   0.13 sec
 ----------------------------------------------------------
-Test Passed.
-"qa_BLISS" end time: Jul 25 13:59 EDT
-"qa_BLISS" time elapsed: 00:00:00
+Test Failed.
+"qa_vector_conjugate" end time: Jul 30 16:43 EDT
+"qa_vector_conjugate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jul 25 13:59 EDT
+End testing: Jul 30 16:43 EDT

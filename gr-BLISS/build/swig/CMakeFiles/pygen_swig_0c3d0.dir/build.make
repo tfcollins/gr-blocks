@@ -56,7 +56,6 @@ swig/BLISS_swig.pyo: swig/BLISS_swig.py
 	cd /home/traviscollins/git/blocks/gr-BLISS/build/swig && /usr/bin/python -O /home/traviscollins/git/blocks/gr-BLISS/build/python_compile_helper.py /home/traviscollins/git/blocks/gr-BLISS/build/swig/BLISS_swig.py /home/traviscollins/git/blocks/gr-BLISS/build/swig/BLISS_swig.pyo
 
 swig/BLISS_swigPYTHON_wrap.cxx: /usr/local/include/gnuradio/swig/gr_shared_ptr.i
-swig/BLISS_swigPYTHON_wrap.cxx: swig/BLISS_swig_doc.i
 swig/BLISS_swigPYTHON_wrap.cxx: /usr/local/include/gruel/swig/gruel_common.i
 swig/BLISS_swigPYTHON_wrap.cxx: ../swig/BLISS_swig.i
 swig/BLISS_swigPYTHON_wrap.cxx: /usr/local/include/gnuradio/swig/gnuradio.i
@@ -69,21 +68,23 @@ swig/BLISS_swigPYTHON_wrap.cxx: ../swig/BLISS_swig.i
 
 swig/BLISS_swig.py: swig/BLISS_swigPYTHON_wrap.cxx
 
-swig/BLISS_swig_doc.i: ../swig/../include/BLISS_api.h
-swig/BLISS_swig_doc.i: ../swig/../include/BLISS_equalizer.h
-swig/BLISS_swig_doc.i: swig/BLISS_swig_doc_swig_docs/xml/index.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/traviscollins/git/blocks/gr-BLISS/build/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating BLISS_swig_doc.i"
-	cd /home/traviscollins/git/blocks/gr-BLISS/docs/doxygen && /usr/bin/python -B /home/traviscollins/git/blocks/gr-BLISS/docs/doxygen/swig_doc.py /home/traviscollins/git/blocks/gr-BLISS/build/swig/BLISS_swig_doc_swig_docs/xml /home/traviscollins/git/blocks/gr-BLISS/build/swig/BLISS_swig_doc.i
-
 swig/BLISS_swig.tag: swig/BLISS_swig_doc.i
 swig/BLISS_swig.tag: swig/_BLISS_swig_swig_tag
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/traviscollins/git/blocks/gr-BLISS/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/traviscollins/git/blocks/gr-BLISS/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating BLISS_swig.tag"
 	cd /home/traviscollins/git/blocks/gr-BLISS/build/swig && ./_BLISS_swig_swig_tag
 	cd /home/traviscollins/git/blocks/gr-BLISS/build/swig && /usr/bin/cmake -E touch /home/traviscollins/git/blocks/gr-BLISS/build/swig/BLISS_swig.tag
 
+swig/BLISS_swig_doc.i: ../swig/../include/BLISS_api.h
+swig/BLISS_swig_doc.i: ../swig/../include/BLISS_vector_conjugate.h
+swig/BLISS_swig_doc.i: ../swig/../include/BLISS_equalizer.h
+swig/BLISS_swig_doc.i: swig/BLISS_swig_doc_swig_docs/xml/index.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/traviscollins/git/blocks/gr-BLISS/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating BLISS_swig_doc.i"
+	cd /home/traviscollins/git/blocks/gr-BLISS/docs/doxygen && /usr/bin/python -B /home/traviscollins/git/blocks/gr-BLISS/docs/doxygen/swig_doc.py /home/traviscollins/git/blocks/gr-BLISS/build/swig/BLISS_swig_doc_swig_docs/xml /home/traviscollins/git/blocks/gr-BLISS/build/swig/BLISS_swig_doc.i
+
 swig/BLISS_swig_doc_swig_docs/xml/index.xml: ../swig/../include/BLISS_api.h
+swig/BLISS_swig_doc_swig_docs/xml/index.xml: ../swig/../include/BLISS_vector_conjugate.h
 swig/BLISS_swig_doc_swig_docs/xml/index.xml: ../swig/../include/BLISS_equalizer.h
 swig/BLISS_swig_doc_swig_docs/xml/index.xml: swig/_BLISS_swig_doc_tag
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/traviscollins/git/blocks/gr-BLISS/build/CMakeFiles $(CMAKE_PROGRESS_6)
@@ -96,8 +97,8 @@ pygen_swig_0c3d0: swig/BLISS_swig.pyc
 pygen_swig_0c3d0: swig/BLISS_swig.pyo
 pygen_swig_0c3d0: swig/BLISS_swigPYTHON_wrap.cxx
 pygen_swig_0c3d0: swig/BLISS_swig.py
-pygen_swig_0c3d0: swig/BLISS_swig_doc.i
 pygen_swig_0c3d0: swig/BLISS_swig.tag
+pygen_swig_0c3d0: swig/BLISS_swig_doc.i
 pygen_swig_0c3d0: swig/BLISS_swig_doc_swig_docs/xml/index.xml
 pygen_swig_0c3d0: swig/CMakeFiles/pygen_swig_0c3d0.dir/build.make
 .PHONY : pygen_swig_0c3d0

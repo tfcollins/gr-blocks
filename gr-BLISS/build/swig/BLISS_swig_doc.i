@@ -26,6 +26,24 @@ Params: (noutput_items, input_items, output_items)"
 
 Params: (NONE)"
 
+%feature("docstring") BLISS_vector_conjugate "<+description+>"
+
+%feature("docstring") BLISS_vector_conjugate::BLISS_vector_conjugate "
+
+Params: (NONE)"
+
+%feature("docstring") BLISS_vector_conjugate::~BLISS_vector_conjugate "
+
+Params: (NONE)"
+
+%feature("docstring") BLISS_vector_conjugate::general_work "
+
+Params: (noutput_items, ninput_items, input_items, output_items)"
+
+%feature("docstring") BLISS_make_vector_conjugate "<+description+>
+
+Params: (NONE)"
+
 %feature("docstring") std::allocator "STL class."
 
 %feature("docstring") std::auto_ptr "STL class."
@@ -88,8 +106,6 @@ Params: (NONE)"
 
 %feature("docstring") std::list::const_iterator "STL iterator class."
 
-%feature("docstring") std::deque::const_reverse_iterator "STL iterator class."
-
 %feature("docstring") std::map::const_reverse_iterator "STL iterator class."
 
 %feature("docstring") std::multimap::const_reverse_iterator "STL iterator class."
@@ -104,9 +120,11 @@ Params: (NONE)"
 
 %feature("docstring") std::string::const_reverse_iterator "STL iterator class."
 
+%feature("docstring") std::list::const_reverse_iterator "STL iterator class."
+
 %feature("docstring") std::wstring::const_reverse_iterator "STL iterator class."
 
-%feature("docstring") std::list::const_reverse_iterator "STL iterator class."
+%feature("docstring") std::deque::const_reverse_iterator "STL iterator class."
 
 %feature("docstring") std::deque "STL class."
 
@@ -130,6 +148,8 @@ Params: (NONE)"
 
 %feature("docstring") std::istringstream "STL class."
 
+%feature("docstring") std::map::iterator "STL iterator class."
+
 %feature("docstring") std::multimap::iterator "STL iterator class."
 
 %feature("docstring") std::set::iterator "STL iterator class."
@@ -143,8 +163,6 @@ Params: (NONE)"
 %feature("docstring") std::wstring::iterator "STL iterator class."
 
 %feature("docstring") std::multiset::iterator "STL iterator class."
-
-%feature("docstring") std::map::iterator "STL iterator class."
 
 %feature("docstring") std::deque::iterator "STL iterator class."
 
@@ -178,25 +196,25 @@ Params: (NONE)"
 
 %feature("docstring") std::range_error "STL class."
 
-%feature("docstring") std::map::reverse_iterator "STL iterator class."
-
-%feature("docstring") std::list::reverse_iterator "STL iterator class."
-
-%feature("docstring") std::multimap::reverse_iterator "STL iterator class."
-
 %feature("docstring") std::set::reverse_iterator "STL iterator class."
+
+%feature("docstring") std::map::reverse_iterator "STL iterator class."
 
 %feature("docstring") std::basic_string::reverse_iterator "STL iterator class."
 
+%feature("docstring") std::string::reverse_iterator "STL iterator class."
+
 %feature("docstring") std::multiset::reverse_iterator "STL iterator class."
+
+%feature("docstring") std::multimap::reverse_iterator "STL iterator class."
+
+%feature("docstring") std::list::reverse_iterator "STL iterator class."
+
+%feature("docstring") std::vector::reverse_iterator "STL iterator class."
 
 %feature("docstring") std::wstring::reverse_iterator "STL iterator class."
 
 %feature("docstring") std::deque::reverse_iterator "STL iterator class."
-
-%feature("docstring") std::string::reverse_iterator "STL iterator class."
-
-%feature("docstring") std::vector::reverse_iterator "STL iterator class."
 
 %feature("docstring") std::runtime_error "STL class."
 

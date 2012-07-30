@@ -155,107 +155,107 @@ class SwigPyIterator(object):
 SwigPyIterator_swigregister = _BLISS_swig.SwigPyIterator_swigregister
 SwigPyIterator_swigregister(SwigPyIterator)
 
-class BLISS_equalizer_sptr(object):
-    """Proxy of C++ boost::shared_ptr<(BLISS_equalizer)> class"""
+class BLISS_vector_conjugate_sptr(object):
+    """Proxy of C++ boost::shared_ptr<(BLISS_vector_conjugate)> class"""
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     def __init__(self, *args): 
         """
-        __init__(self) -> BLISS_equalizer_sptr
-        __init__(self,  p) -> BLISS_equalizer_sptr
+        __init__(self) -> BLISS_vector_conjugate_sptr
+        __init__(self,  p) -> BLISS_vector_conjugate_sptr
         """
-        this = _BLISS_swig.new_BLISS_equalizer_sptr(*args)
+        this = _BLISS_swig.new_BLISS_vector_conjugate_sptr(*args)
         try: self.this.append(this)
         except: self.this = this
     def __deref__(self):
         """__deref__(self)"""
-        return _BLISS_swig.BLISS_equalizer_sptr___deref__(self)
+        return _BLISS_swig.BLISS_vector_conjugate_sptr___deref__(self)
 
-    __swig_destroy__ = _BLISS_swig.delete_BLISS_equalizer_sptr
+    __swig_destroy__ = _BLISS_swig.delete_BLISS_vector_conjugate_sptr
     __del__ = lambda self : None;
-    def work(self, *args, **kwargs):
+    def general_work(self, *args, **kwargs):
         """
-        work(self, int noutput_items, gr_vector_const_void_star input_items, 
+        general_work(self, int noutput_items, gr_vector_int ninput_items, gr_vector_const_void_star input_items, 
             gr_vector_void_star output_items) -> int
 
-        Params: (noutput_items, input_items, output_items)
+        Params: (noutput_items, ninput_items, input_items, output_items)
         """
-        return _BLISS_swig.BLISS_equalizer_sptr_work(self, *args, **kwargs)
+        return _BLISS_swig.BLISS_vector_conjugate_sptr_general_work(self, *args, **kwargs)
 
     def history(self):
         """history(self) -> unsigned int"""
-        return _BLISS_swig.BLISS_equalizer_sptr_history(self)
+        return _BLISS_swig.BLISS_vector_conjugate_sptr_history(self)
 
     def output_multiple(self):
         """output_multiple(self) -> int"""
-        return _BLISS_swig.BLISS_equalizer_sptr_output_multiple(self)
+        return _BLISS_swig.BLISS_vector_conjugate_sptr_output_multiple(self)
 
     def relative_rate(self):
         """relative_rate(self) -> double"""
-        return _BLISS_swig.BLISS_equalizer_sptr_relative_rate(self)
+        return _BLISS_swig.BLISS_vector_conjugate_sptr_relative_rate(self)
 
     def start(self):
         """start(self) -> bool"""
-        return _BLISS_swig.BLISS_equalizer_sptr_start(self)
+        return _BLISS_swig.BLISS_vector_conjugate_sptr_start(self)
 
     def stop(self):
         """stop(self) -> bool"""
-        return _BLISS_swig.BLISS_equalizer_sptr_stop(self)
+        return _BLISS_swig.BLISS_vector_conjugate_sptr_stop(self)
 
     def nitems_read(self, *args, **kwargs):
         """nitems_read(self, unsigned int which_input) -> uint64_t"""
-        return _BLISS_swig.BLISS_equalizer_sptr_nitems_read(self, *args, **kwargs)
+        return _BLISS_swig.BLISS_vector_conjugate_sptr_nitems_read(self, *args, **kwargs)
 
     def nitems_written(self, *args, **kwargs):
         """nitems_written(self, unsigned int which_output) -> uint64_t"""
-        return _BLISS_swig.BLISS_equalizer_sptr_nitems_written(self, *args, **kwargs)
+        return _BLISS_swig.BLISS_vector_conjugate_sptr_nitems_written(self, *args, **kwargs)
 
     def detail(self):
         """detail(self) -> gr_block_detail_sptr"""
-        return _BLISS_swig.BLISS_equalizer_sptr_detail(self)
+        return _BLISS_swig.BLISS_vector_conjugate_sptr_detail(self)
 
     def set_detail(self, *args, **kwargs):
         """set_detail(self, gr_block_detail_sptr detail)"""
-        return _BLISS_swig.BLISS_equalizer_sptr_set_detail(self, *args, **kwargs)
+        return _BLISS_swig.BLISS_vector_conjugate_sptr_set_detail(self, *args, **kwargs)
 
     def name(self):
         """name(self) -> string"""
-        return _BLISS_swig.BLISS_equalizer_sptr_name(self)
+        return _BLISS_swig.BLISS_vector_conjugate_sptr_name(self)
 
     def input_signature(self):
         """input_signature(self) -> gr_io_signature_sptr"""
-        return _BLISS_swig.BLISS_equalizer_sptr_input_signature(self)
+        return _BLISS_swig.BLISS_vector_conjugate_sptr_input_signature(self)
 
     def output_signature(self):
         """output_signature(self) -> gr_io_signature_sptr"""
-        return _BLISS_swig.BLISS_equalizer_sptr_output_signature(self)
+        return _BLISS_swig.BLISS_vector_conjugate_sptr_output_signature(self)
 
     def unique_id(self):
         """unique_id(self) -> long"""
-        return _BLISS_swig.BLISS_equalizer_sptr_unique_id(self)
+        return _BLISS_swig.BLISS_vector_conjugate_sptr_unique_id(self)
 
     def to_basic_block(self):
         """to_basic_block(self) -> gr_basic_block_sptr"""
-        return _BLISS_swig.BLISS_equalizer_sptr_to_basic_block(self)
+        return _BLISS_swig.BLISS_vector_conjugate_sptr_to_basic_block(self)
 
     def check_topology(self, *args, **kwargs):
         """check_topology(self, int ninputs, int noutputs) -> bool"""
-        return _BLISS_swig.BLISS_equalizer_sptr_check_topology(self, *args, **kwargs)
+        return _BLISS_swig.BLISS_vector_conjugate_sptr_check_topology(self, *args, **kwargs)
 
-BLISS_equalizer_sptr_swigregister = _BLISS_swig.BLISS_equalizer_sptr_swigregister
-BLISS_equalizer_sptr_swigregister(BLISS_equalizer_sptr)
+BLISS_vector_conjugate_sptr_swigregister = _BLISS_swig.BLISS_vector_conjugate_sptr_swigregister
+BLISS_vector_conjugate_sptr_swigregister(BLISS_vector_conjugate_sptr)
 
-BLISS_equalizer_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id ())
+BLISS_vector_conjugate_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id ())
 
 
-def equalizer():
+def vector_conjugate():
   """
-    equalizer() -> BLISS_equalizer_sptr
+    vector_conjugate() -> BLISS_vector_conjugate_sptr
 
     <+description+>
 
     Params: (NONE)
     """
-  return _BLISS_swig.equalizer()
+  return _BLISS_swig.vector_conjugate()
 
 

@@ -2942,9 +2942,9 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 
 /* -------- TYPES TABLE (BEGIN) -------- */
 
-#define SWIGTYPE_p_BLISS_equalizer swig_types[0]
+#define SWIGTYPE_p_BLISS_vector_conjugate swig_types[0]
 #define SWIGTYPE_p_allocator_type swig_types[1]
-#define SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t swig_types[2]
+#define SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t swig_types[2]
 #define SWIGTYPE_p_boost__shared_ptrT_gr_basic_block_t swig_types[3]
 #define SWIGTYPE_p_boost__shared_ptrT_gr_block_detail_t swig_types[4]
 #define SWIGTYPE_p_boost__shared_ptrT_gr_block_t swig_types[5]
@@ -2967,18 +2967,19 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 #define SWIGTYPE_p_gr_sync_interpolator swig_types[22]
 #define SWIGTYPE_p_gr_top_block swig_types[23]
 #define SWIGTYPE_p_gr_vector_const_void_star swig_types[24]
-#define SWIGTYPE_p_gr_vector_void_star swig_types[25]
-#define SWIGTYPE_p_gruel__rt_status_t swig_types[26]
-#define SWIGTYPE_p_long_long swig_types[27]
-#define SWIGTYPE_p_size_type swig_types[28]
-#define SWIGTYPE_p_std__complexT_double_t swig_types[29]
-#define SWIGTYPE_p_std__complexT_float_t swig_types[30]
-#define SWIGTYPE_p_std__invalid_argument swig_types[31]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[32]
-#define SWIGTYPE_p_unsigned_long_long swig_types[33]
-#define SWIGTYPE_p_value_type swig_types[34]
-static swig_type_info *swig_types[36];
-static swig_module_info swig_module = {swig_types, 35, 0, 0, 0, 0};
+#define SWIGTYPE_p_gr_vector_int swig_types[25]
+#define SWIGTYPE_p_gr_vector_void_star swig_types[26]
+#define SWIGTYPE_p_gruel__rt_status_t swig_types[27]
+#define SWIGTYPE_p_long_long swig_types[28]
+#define SWIGTYPE_p_size_type swig_types[29]
+#define SWIGTYPE_p_std__complexT_double_t swig_types[30]
+#define SWIGTYPE_p_std__complexT_float_t swig_types[31]
+#define SWIGTYPE_p_std__invalid_argument swig_types[32]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[33]
+#define SWIGTYPE_p_unsigned_long_long swig_types[34]
+#define SWIGTYPE_p_value_type swig_types[35]
+static swig_type_info *swig_types[37];
+static swig_module_info swig_module = {swig_types, 36, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -4364,7 +4365,8 @@ namespace swig
 }
 
 
-#include "BLISS_equalizer.h"
+//#include "BLISS_equalizer.h"
+#include "BLISS_vector_conjugate.h"
 
 
 #include <limits.h>
@@ -5417,13 +5419,13 @@ SWIGINTERN PyObject *SwigPyIterator_swigregister(PyObject *SWIGUNUSEDPARM(self),
   return SWIG_Py_Void();
 }
 
-SWIGINTERN PyObject *_wrap_new_BLISS_equalizer_sptr__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_new_BLISS_vector_conjugate_sptr__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  boost::shared_ptr< BLISS_equalizer > *result = 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *result = 0 ;
   
   {
     try {
-      result = (boost::shared_ptr< BLISS_equalizer > *)new boost::shared_ptr< BLISS_equalizer >();
+      result = (boost::shared_ptr< BLISS_vector_conjugate > *)new boost::shared_ptr< BLISS_vector_conjugate >();
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -5433,30 +5435,30 @@ SWIGINTERN PyObject *_wrap_new_BLISS_equalizer_sptr__SWIG_0(PyObject *SWIGUNUSED
     }
     
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, SWIG_POINTER_NEW |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
   return NULL;
 }
 
 
-SWIGINTERN PyObject *_wrap_new_BLISS_equalizer_sptr__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_new_BLISS_vector_conjugate_sptr__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  BLISS_equalizer *arg1 = (BLISS_equalizer *) 0 ;
+  BLISS_vector_conjugate *arg1 = (BLISS_vector_conjugate *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
-  boost::shared_ptr< BLISS_equalizer > *result = 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *result = 0 ;
   
-  if(!PyArg_UnpackTuple(args,(char *)"new_BLISS_equalizer_sptr",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_BLISS_equalizer, 0 |  0 );
+  if(!PyArg_UnpackTuple(args,(char *)"new_BLISS_vector_conjugate_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_BLISS_vector_conjugate, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_BLISS_equalizer_sptr" "', argument " "1"" of type '" "BLISS_equalizer *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_BLISS_vector_conjugate_sptr" "', argument " "1"" of type '" "BLISS_vector_conjugate *""'"); 
   }
-  arg1 = reinterpret_cast< BLISS_equalizer * >(argp1);
+  arg1 = reinterpret_cast< BLISS_vector_conjugate * >(argp1);
   {
     try {
-      result = (boost::shared_ptr< BLISS_equalizer > *)new boost::shared_ptr< BLISS_equalizer >(arg1);
+      result = (boost::shared_ptr< BLISS_vector_conjugate > *)new boost::shared_ptr< BLISS_vector_conjugate >(arg1);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -5466,14 +5468,14 @@ SWIGINTERN PyObject *_wrap_new_BLISS_equalizer_sptr__SWIG_1(PyObject *SWIGUNUSED
     }
     
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, SWIG_POINTER_NEW |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
   return NULL;
 }
 
 
-SWIGINTERN PyObject *_wrap_new_BLISS_equalizer_sptr(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_new_BLISS_vector_conjugate_sptr(PyObject *self, PyObject *args) {
   int argc;
   PyObject *argv[2];
   int ii;
@@ -5484,44 +5486,44 @@ SWIGINTERN PyObject *_wrap_new_BLISS_equalizer_sptr(PyObject *self, PyObject *ar
     argv[ii] = PyTuple_GET_ITEM(args,ii);
   }
   if (argc == 0) {
-    return _wrap_new_BLISS_equalizer_sptr__SWIG_0(self, args);
+    return _wrap_new_BLISS_vector_conjugate_sptr__SWIG_0(self, args);
   }
   if (argc == 1) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_BLISS_equalizer, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_BLISS_vector_conjugate, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
-      return _wrap_new_BLISS_equalizer_sptr__SWIG_1(self, args);
+      return _wrap_new_BLISS_vector_conjugate_sptr__SWIG_1(self, args);
     }
   }
   
 fail:
-  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_BLISS_equalizer_sptr'.\n"
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_BLISS_vector_conjugate_sptr'.\n"
     "  Possible C/C++ prototypes are:\n"
-    "    boost::shared_ptr< BLISS_equalizer >::shared_ptr()\n"
-    "    boost::shared_ptr< BLISS_equalizer >::shared_ptr(BLISS_equalizer *)\n");
+    "    boost::shared_ptr< BLISS_vector_conjugate >::shared_ptr()\n"
+    "    boost::shared_ptr< BLISS_vector_conjugate >::shared_ptr(BLISS_vector_conjugate *)\n");
   return 0;
 }
 
 
-SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr___deref__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_BLISS_vector_conjugate_sptr___deref__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  boost::shared_ptr< BLISS_equalizer > *arg1 = (boost::shared_ptr< BLISS_equalizer > *) 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *arg1 = (boost::shared_ptr< BLISS_vector_conjugate > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
-  BLISS_equalizer *result = 0 ;
+  BLISS_vector_conjugate *result = 0 ;
   
-  if(!PyArg_UnpackTuple(args,(char *)"BLISS_equalizer_sptr___deref__",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, 0 |  0 );
+  if(!PyArg_UnpackTuple(args,(char *)"BLISS_vector_conjugate_sptr___deref__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_equalizer_sptr___deref__" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_equalizer > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_vector_conjugate_sptr___deref__" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_vector_conjugate > *""'"); 
   }
-  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_equalizer > * >(argp1);
+  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_vector_conjugate > * >(argp1);
   {
     try {
-      result = (BLISS_equalizer *)(arg1)->operator ->();
+      result = (BLISS_vector_conjugate *)(arg1)->operator ->();
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -5531,26 +5533,26 @@ SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr___deref__(PyObject *SWIGUNUSEDPA
     }
     
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_BLISS_equalizer, 0 |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_BLISS_vector_conjugate, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
 }
 
 
-SWIGINTERN PyObject *_wrap_delete_BLISS_equalizer_sptr(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_delete_BLISS_vector_conjugate_sptr(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  boost::shared_ptr< BLISS_equalizer > *arg1 = (boost::shared_ptr< BLISS_equalizer > *) 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *arg1 = (boost::shared_ptr< BLISS_vector_conjugate > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
   
-  if(!PyArg_UnpackTuple(args,(char *)"delete_BLISS_equalizer_sptr",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, SWIG_POINTER_DISOWN |  0 );
+  if(!PyArg_UnpackTuple(args,(char *)"delete_BLISS_vector_conjugate_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_BLISS_equalizer_sptr" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_equalizer > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_BLISS_vector_conjugate_sptr" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_vector_conjugate > *""'"); 
   }
-  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_equalizer > * >(argp1);
+  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_vector_conjugate > * >(argp1);
   {
     try {
       delete arg1;
@@ -5570,12 +5572,13 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_work(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_BLISS_vector_conjugate_sptr_general_work(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  boost::shared_ptr< BLISS_equalizer > *arg1 = (boost::shared_ptr< BLISS_equalizer > *) 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *arg1 = (boost::shared_ptr< BLISS_vector_conjugate > *) 0 ;
   int arg2 ;
-  gr_vector_const_void_star *arg3 = 0 ;
-  gr_vector_void_star *arg4 = 0 ;
+  gr_vector_int *arg3 = 0 ;
+  gr_vector_const_void_star *arg4 = 0 ;
+  gr_vector_void_star *arg5 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   int val2 ;
@@ -5584,45 +5587,56 @@ SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_work(PyObject *SWIGUNUSEDPARM(se
   int res3 = 0 ;
   void *argp4 = 0 ;
   int res4 = 0 ;
+  void *argp5 = 0 ;
+  int res5 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   PyObject * obj2 = 0 ;
   PyObject * obj3 = 0 ;
+  PyObject * obj4 = 0 ;
   char *  kwnames[] = {
-    (char *) "self",(char *) "noutput_items",(char *) "input_items",(char *) "output_items", NULL 
+    (char *) "self",(char *) "noutput_items",(char *) "ninput_items",(char *) "input_items",(char *) "output_items", NULL 
   };
   int result;
   
-  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOOO:BLISS_equalizer_sptr_work",kwnames,&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, 0 |  0 );
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOOOO:BLISS_vector_conjugate_sptr_general_work",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_equalizer_sptr_work" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_equalizer > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_vector_conjugate_sptr_general_work" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_vector_conjugate > *""'"); 
   }
-  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_equalizer > * >(argp1);
+  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_vector_conjugate > * >(argp1);
   ecode2 = SWIG_AsVal_int(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "BLISS_equalizer_sptr_work" "', argument " "2"" of type '" "int""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "BLISS_vector_conjugate_sptr_general_work" "', argument " "2"" of type '" "int""'");
   } 
   arg2 = static_cast< int >(val2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_gr_vector_const_void_star,  0 );
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_gr_vector_int,  0 );
   if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "BLISS_equalizer_sptr_work" "', argument " "3"" of type '" "gr_vector_const_void_star &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "BLISS_vector_conjugate_sptr_general_work" "', argument " "3"" of type '" "gr_vector_int &""'"); 
   }
   if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "BLISS_equalizer_sptr_work" "', argument " "3"" of type '" "gr_vector_const_void_star &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "BLISS_vector_conjugate_sptr_general_work" "', argument " "3"" of type '" "gr_vector_int &""'"); 
   }
-  arg3 = reinterpret_cast< gr_vector_const_void_star * >(argp3);
-  res4 = SWIG_ConvertPtr(obj3, &argp4, SWIGTYPE_p_gr_vector_void_star,  0 );
+  arg3 = reinterpret_cast< gr_vector_int * >(argp3);
+  res4 = SWIG_ConvertPtr(obj3, &argp4, SWIGTYPE_p_gr_vector_const_void_star,  0 );
   if (!SWIG_IsOK(res4)) {
-    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "BLISS_equalizer_sptr_work" "', argument " "4"" of type '" "gr_vector_void_star &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "BLISS_vector_conjugate_sptr_general_work" "', argument " "4"" of type '" "gr_vector_const_void_star &""'"); 
   }
   if (!argp4) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "BLISS_equalizer_sptr_work" "', argument " "4"" of type '" "gr_vector_void_star &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "BLISS_vector_conjugate_sptr_general_work" "', argument " "4"" of type '" "gr_vector_const_void_star &""'"); 
   }
-  arg4 = reinterpret_cast< gr_vector_void_star * >(argp4);
+  arg4 = reinterpret_cast< gr_vector_const_void_star * >(argp4);
+  res5 = SWIG_ConvertPtr(obj4, &argp5, SWIGTYPE_p_gr_vector_void_star,  0 );
+  if (!SWIG_IsOK(res5)) {
+    SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "BLISS_vector_conjugate_sptr_general_work" "', argument " "5"" of type '" "gr_vector_void_star &""'"); 
+  }
+  if (!argp5) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "BLISS_vector_conjugate_sptr_general_work" "', argument " "5"" of type '" "gr_vector_void_star &""'"); 
+  }
+  arg5 = reinterpret_cast< gr_vector_void_star * >(argp5);
   {
     try {
-      result = (int)(*arg1)->work(arg2,*arg3,*arg4);
+      result = (int)(*arg1)->general_work(arg2,*arg3,*arg4,*arg5);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -5639,20 +5653,20 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_history(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_BLISS_vector_conjugate_sptr_history(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  boost::shared_ptr< BLISS_equalizer > *arg1 = (boost::shared_ptr< BLISS_equalizer > *) 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *arg1 = (boost::shared_ptr< BLISS_vector_conjugate > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
   unsigned int result;
   
-  if(!PyArg_UnpackTuple(args,(char *)"BLISS_equalizer_sptr_history",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, 0 |  0 );
+  if(!PyArg_UnpackTuple(args,(char *)"BLISS_vector_conjugate_sptr_history",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_equalizer_sptr_history" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_equalizer > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_vector_conjugate_sptr_history" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_vector_conjugate > const *""'"); 
   }
-  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_equalizer > * >(argp1);
+  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_vector_conjugate > * >(argp1);
   {
     try {
       result = (unsigned int)(*arg1)->history();
@@ -5672,20 +5686,20 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_output_multiple(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_BLISS_vector_conjugate_sptr_output_multiple(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  boost::shared_ptr< BLISS_equalizer > *arg1 = (boost::shared_ptr< BLISS_equalizer > *) 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *arg1 = (boost::shared_ptr< BLISS_vector_conjugate > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
   int result;
   
-  if(!PyArg_UnpackTuple(args,(char *)"BLISS_equalizer_sptr_output_multiple",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, 0 |  0 );
+  if(!PyArg_UnpackTuple(args,(char *)"BLISS_vector_conjugate_sptr_output_multiple",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_equalizer_sptr_output_multiple" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_equalizer > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_vector_conjugate_sptr_output_multiple" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_vector_conjugate > const *""'"); 
   }
-  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_equalizer > * >(argp1);
+  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_vector_conjugate > * >(argp1);
   {
     try {
       result = (int)(*arg1)->output_multiple();
@@ -5705,20 +5719,20 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_relative_rate(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_BLISS_vector_conjugate_sptr_relative_rate(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  boost::shared_ptr< BLISS_equalizer > *arg1 = (boost::shared_ptr< BLISS_equalizer > *) 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *arg1 = (boost::shared_ptr< BLISS_vector_conjugate > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
   double result;
   
-  if(!PyArg_UnpackTuple(args,(char *)"BLISS_equalizer_sptr_relative_rate",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, 0 |  0 );
+  if(!PyArg_UnpackTuple(args,(char *)"BLISS_vector_conjugate_sptr_relative_rate",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_equalizer_sptr_relative_rate" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_equalizer > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_vector_conjugate_sptr_relative_rate" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_vector_conjugate > const *""'"); 
   }
-  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_equalizer > * >(argp1);
+  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_vector_conjugate > * >(argp1);
   {
     try {
       result = (double)(*arg1)->relative_rate();
@@ -5738,20 +5752,20 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_start(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_BLISS_vector_conjugate_sptr_start(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  boost::shared_ptr< BLISS_equalizer > *arg1 = (boost::shared_ptr< BLISS_equalizer > *) 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *arg1 = (boost::shared_ptr< BLISS_vector_conjugate > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
   bool result;
   
-  if(!PyArg_UnpackTuple(args,(char *)"BLISS_equalizer_sptr_start",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, 0 |  0 );
+  if(!PyArg_UnpackTuple(args,(char *)"BLISS_vector_conjugate_sptr_start",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_equalizer_sptr_start" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_equalizer > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_vector_conjugate_sptr_start" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_vector_conjugate > *""'"); 
   }
-  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_equalizer > * >(argp1);
+  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_vector_conjugate > * >(argp1);
   {
     try {
       result = (bool)(*arg1)->start();
@@ -5771,20 +5785,20 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_stop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_BLISS_vector_conjugate_sptr_stop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  boost::shared_ptr< BLISS_equalizer > *arg1 = (boost::shared_ptr< BLISS_equalizer > *) 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *arg1 = (boost::shared_ptr< BLISS_vector_conjugate > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
   bool result;
   
-  if(!PyArg_UnpackTuple(args,(char *)"BLISS_equalizer_sptr_stop",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, 0 |  0 );
+  if(!PyArg_UnpackTuple(args,(char *)"BLISS_vector_conjugate_sptr_stop",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_equalizer_sptr_stop" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_equalizer > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_vector_conjugate_sptr_stop" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_vector_conjugate > *""'"); 
   }
-  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_equalizer > * >(argp1);
+  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_vector_conjugate > * >(argp1);
   {
     try {
       result = (bool)(*arg1)->stop();
@@ -5804,9 +5818,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_nitems_read(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_BLISS_vector_conjugate_sptr_nitems_read(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  boost::shared_ptr< BLISS_equalizer > *arg1 = (boost::shared_ptr< BLISS_equalizer > *) 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *arg1 = (boost::shared_ptr< BLISS_vector_conjugate > *) 0 ;
   unsigned int arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -5819,15 +5833,15 @@ SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_nitems_read(PyObject *SWIGUNUSED
   };
   uint64_t result;
   
-  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:BLISS_equalizer_sptr_nitems_read",kwnames,&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, 0 |  0 );
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:BLISS_vector_conjugate_sptr_nitems_read",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_equalizer_sptr_nitems_read" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_equalizer > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_vector_conjugate_sptr_nitems_read" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_vector_conjugate > *""'"); 
   }
-  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_equalizer > * >(argp1);
+  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_vector_conjugate > * >(argp1);
   ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "BLISS_equalizer_sptr_nitems_read" "', argument " "2"" of type '" "unsigned int""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "BLISS_vector_conjugate_sptr_nitems_read" "', argument " "2"" of type '" "unsigned int""'");
   } 
   arg2 = static_cast< unsigned int >(val2);
   {
@@ -5849,9 +5863,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_nitems_written(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_BLISS_vector_conjugate_sptr_nitems_written(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  boost::shared_ptr< BLISS_equalizer > *arg1 = (boost::shared_ptr< BLISS_equalizer > *) 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *arg1 = (boost::shared_ptr< BLISS_vector_conjugate > *) 0 ;
   unsigned int arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -5864,15 +5878,15 @@ SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_nitems_written(PyObject *SWIGUNU
   };
   uint64_t result;
   
-  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:BLISS_equalizer_sptr_nitems_written",kwnames,&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, 0 |  0 );
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:BLISS_vector_conjugate_sptr_nitems_written",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_equalizer_sptr_nitems_written" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_equalizer > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_vector_conjugate_sptr_nitems_written" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_vector_conjugate > *""'"); 
   }
-  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_equalizer > * >(argp1);
+  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_vector_conjugate > * >(argp1);
   ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "BLISS_equalizer_sptr_nitems_written" "', argument " "2"" of type '" "unsigned int""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "BLISS_vector_conjugate_sptr_nitems_written" "', argument " "2"" of type '" "unsigned int""'");
   } 
   arg2 = static_cast< unsigned int >(val2);
   {
@@ -5894,20 +5908,20 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_detail(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_BLISS_vector_conjugate_sptr_detail(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  boost::shared_ptr< BLISS_equalizer > *arg1 = (boost::shared_ptr< BLISS_equalizer > *) 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *arg1 = (boost::shared_ptr< BLISS_vector_conjugate > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
   gr_block_detail_sptr result;
   
-  if(!PyArg_UnpackTuple(args,(char *)"BLISS_equalizer_sptr_detail",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, 0 |  0 );
+  if(!PyArg_UnpackTuple(args,(char *)"BLISS_vector_conjugate_sptr_detail",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_equalizer_sptr_detail" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_equalizer > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_vector_conjugate_sptr_detail" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_vector_conjugate > const *""'"); 
   }
-  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_equalizer > * >(argp1);
+  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_vector_conjugate > * >(argp1);
   {
     try {
       result = (*arg1)->detail();
@@ -5927,9 +5941,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_set_detail(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_BLISS_vector_conjugate_sptr_set_detail(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  boost::shared_ptr< BLISS_equalizer > *arg1 = (boost::shared_ptr< BLISS_equalizer > *) 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *arg1 = (boost::shared_ptr< BLISS_vector_conjugate > *) 0 ;
   gr_block_detail_sptr arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -5941,19 +5955,19 @@ SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_set_detail(PyObject *SWIGUNUSEDP
     (char *) "self",(char *) "detail", NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:BLISS_equalizer_sptr_set_detail",kwnames,&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, 0 |  0 );
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:BLISS_vector_conjugate_sptr_set_detail",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_equalizer_sptr_set_detail" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_equalizer > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_vector_conjugate_sptr_set_detail" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_vector_conjugate > *""'"); 
   }
-  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_equalizer > * >(argp1);
+  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_vector_conjugate > * >(argp1);
   {
     res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__shared_ptrT_gr_block_detail_t,  0  | 0);
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "BLISS_equalizer_sptr_set_detail" "', argument " "2"" of type '" "gr_block_detail_sptr""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "BLISS_vector_conjugate_sptr_set_detail" "', argument " "2"" of type '" "gr_block_detail_sptr""'"); 
     }  
     if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "BLISS_equalizer_sptr_set_detail" "', argument " "2"" of type '" "gr_block_detail_sptr""'");
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "BLISS_vector_conjugate_sptr_set_detail" "', argument " "2"" of type '" "gr_block_detail_sptr""'");
     } else {
       gr_block_detail_sptr * temp = reinterpret_cast< gr_block_detail_sptr * >(argp2);
       arg2 = *temp;
@@ -5979,20 +5993,20 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_BLISS_vector_conjugate_sptr_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  boost::shared_ptr< BLISS_equalizer > *arg1 = (boost::shared_ptr< BLISS_equalizer > *) 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *arg1 = (boost::shared_ptr< BLISS_vector_conjugate > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
   std::string result;
   
-  if(!PyArg_UnpackTuple(args,(char *)"BLISS_equalizer_sptr_name",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, 0 |  0 );
+  if(!PyArg_UnpackTuple(args,(char *)"BLISS_vector_conjugate_sptr_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_equalizer_sptr_name" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_equalizer > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_vector_conjugate_sptr_name" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_vector_conjugate > const *""'"); 
   }
-  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_equalizer > * >(argp1);
+  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_vector_conjugate > * >(argp1);
   {
     try {
       result = (*arg1)->name();
@@ -6012,20 +6026,20 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_input_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_BLISS_vector_conjugate_sptr_input_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  boost::shared_ptr< BLISS_equalizer > *arg1 = (boost::shared_ptr< BLISS_equalizer > *) 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *arg1 = (boost::shared_ptr< BLISS_vector_conjugate > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
   gr_io_signature_sptr result;
   
-  if(!PyArg_UnpackTuple(args,(char *)"BLISS_equalizer_sptr_input_signature",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, 0 |  0 );
+  if(!PyArg_UnpackTuple(args,(char *)"BLISS_vector_conjugate_sptr_input_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_equalizer_sptr_input_signature" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_equalizer > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_vector_conjugate_sptr_input_signature" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_vector_conjugate > const *""'"); 
   }
-  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_equalizer > * >(argp1);
+  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_vector_conjugate > * >(argp1);
   {
     try {
       result = (*arg1)->input_signature();
@@ -6045,20 +6059,20 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_output_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_BLISS_vector_conjugate_sptr_output_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  boost::shared_ptr< BLISS_equalizer > *arg1 = (boost::shared_ptr< BLISS_equalizer > *) 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *arg1 = (boost::shared_ptr< BLISS_vector_conjugate > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
   gr_io_signature_sptr result;
   
-  if(!PyArg_UnpackTuple(args,(char *)"BLISS_equalizer_sptr_output_signature",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, 0 |  0 );
+  if(!PyArg_UnpackTuple(args,(char *)"BLISS_vector_conjugate_sptr_output_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_equalizer_sptr_output_signature" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_equalizer > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_vector_conjugate_sptr_output_signature" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_vector_conjugate > const *""'"); 
   }
-  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_equalizer > * >(argp1);
+  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_vector_conjugate > * >(argp1);
   {
     try {
       result = (*arg1)->output_signature();
@@ -6078,20 +6092,20 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_unique_id(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_BLISS_vector_conjugate_sptr_unique_id(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  boost::shared_ptr< BLISS_equalizer > *arg1 = (boost::shared_ptr< BLISS_equalizer > *) 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *arg1 = (boost::shared_ptr< BLISS_vector_conjugate > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
   long result;
   
-  if(!PyArg_UnpackTuple(args,(char *)"BLISS_equalizer_sptr_unique_id",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, 0 |  0 );
+  if(!PyArg_UnpackTuple(args,(char *)"BLISS_vector_conjugate_sptr_unique_id",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_equalizer_sptr_unique_id" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_equalizer > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_vector_conjugate_sptr_unique_id" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_vector_conjugate > const *""'"); 
   }
-  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_equalizer > * >(argp1);
+  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_vector_conjugate > * >(argp1);
   {
     try {
       result = (long)(*arg1)->unique_id();
@@ -6111,20 +6125,20 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_to_basic_block(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_BLISS_vector_conjugate_sptr_to_basic_block(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  boost::shared_ptr< BLISS_equalizer > *arg1 = (boost::shared_ptr< BLISS_equalizer > *) 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *arg1 = (boost::shared_ptr< BLISS_vector_conjugate > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
   gr_basic_block_sptr result;
   
-  if(!PyArg_UnpackTuple(args,(char *)"BLISS_equalizer_sptr_to_basic_block",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, 0 |  0 );
+  if(!PyArg_UnpackTuple(args,(char *)"BLISS_vector_conjugate_sptr_to_basic_block",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_equalizer_sptr_to_basic_block" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_equalizer > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_vector_conjugate_sptr_to_basic_block" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_vector_conjugate > *""'"); 
   }
-  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_equalizer > * >(argp1);
+  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_vector_conjugate > * >(argp1);
   {
     try {
       result = (*arg1)->to_basic_block();
@@ -6144,9 +6158,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_check_topology(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_BLISS_vector_conjugate_sptr_check_topology(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  boost::shared_ptr< BLISS_equalizer > *arg1 = (boost::shared_ptr< BLISS_equalizer > *) 0 ;
+  boost::shared_ptr< BLISS_vector_conjugate > *arg1 = (boost::shared_ptr< BLISS_vector_conjugate > *) 0 ;
   int arg2 ;
   int arg3 ;
   void *argp1 = 0 ;
@@ -6163,20 +6177,20 @@ SWIGINTERN PyObject *_wrap_BLISS_equalizer_sptr_check_topology(PyObject *SWIGUNU
   };
   bool result;
   
-  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:BLISS_equalizer_sptr_check_topology",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, 0 |  0 );
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:BLISS_vector_conjugate_sptr_check_topology",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_equalizer_sptr_check_topology" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_equalizer > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BLISS_vector_conjugate_sptr_check_topology" "', argument " "1"" of type '" "boost::shared_ptr< BLISS_vector_conjugate > *""'"); 
   }
-  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_equalizer > * >(argp1);
+  arg1 = reinterpret_cast< boost::shared_ptr< BLISS_vector_conjugate > * >(argp1);
   ecode2 = SWIG_AsVal_int(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "BLISS_equalizer_sptr_check_topology" "', argument " "2"" of type '" "int""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "BLISS_vector_conjugate_sptr_check_topology" "', argument " "2"" of type '" "int""'");
   } 
   arg2 = static_cast< int >(val2);
   ecode3 = SWIG_AsVal_int(obj2, &val3);
   if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "BLISS_equalizer_sptr_check_topology" "', argument " "3"" of type '" "int""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "BLISS_vector_conjugate_sptr_check_topology" "', argument " "3"" of type '" "int""'");
   } 
   arg3 = static_cast< int >(val3);
   {
@@ -6198,20 +6212,20 @@ fail:
 }
 
 
-SWIGINTERN PyObject *BLISS_equalizer_sptr_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *BLISS_vector_conjugate_sptr_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, SWIG_NewClientData(obj));
+  SWIG_TypeNewClientData(SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
-SWIGINTERN PyObject *_wrap_equalizer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_vector_conjugate(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  BLISS_equalizer_sptr result;
+  BLISS_vector_conjugate_sptr result;
   
   {
     try {
-      result = BLISS_make_equalizer();
+      result = BLISS_make_vector_conjugate();
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -6221,7 +6235,7 @@ SWIGINTERN PyObject *_wrap_equalizer(PyObject *SWIGUNUSEDPARM(self), PyObject *a
     }
     
   }
-  resultobj = SWIG_NewPointerObj((new BLISS_equalizer_sptr(static_cast< const BLISS_equalizer_sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_BLISS_equalizer_t, SWIG_POINTER_OWN |  0 );
+  resultobj = SWIG_NewPointerObj((new BLISS_vector_conjugate_sptr(static_cast< const BLISS_vector_conjugate_sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_BLISS_vector_conjugate_t, SWIG_POINTER_OWN |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -6251,36 +6265,37 @@ static PyMethodDef SwigMethods[] = {
 		"SwigPyIterator___sub__(SwigPyIterator self, SwigPyIterator x) -> ptrdiff_t\n"
 		""},
 	 { (char *)"SwigPyIterator_swigregister", SwigPyIterator_swigregister, METH_VARARGS, NULL},
-	 { (char *)"new_BLISS_equalizer_sptr", _wrap_new_BLISS_equalizer_sptr, METH_VARARGS, (char *)"\n"
-		"BLISS_equalizer_sptr()\n"
-		"new_BLISS_equalizer_sptr( p) -> BLISS_equalizer_sptr\n"
+	 { (char *)"new_BLISS_vector_conjugate_sptr", _wrap_new_BLISS_vector_conjugate_sptr, METH_VARARGS, (char *)"\n"
+		"BLISS_vector_conjugate_sptr()\n"
+		"new_BLISS_vector_conjugate_sptr( p) -> BLISS_vector_conjugate_sptr\n"
 		""},
-	 { (char *)"BLISS_equalizer_sptr___deref__", _wrap_BLISS_equalizer_sptr___deref__, METH_VARARGS, (char *)"BLISS_equalizer_sptr___deref__(BLISS_equalizer_sptr self)"},
-	 { (char *)"delete_BLISS_equalizer_sptr", _wrap_delete_BLISS_equalizer_sptr, METH_VARARGS, (char *)"delete_BLISS_equalizer_sptr(BLISS_equalizer_sptr self)"},
-	 { (char *)"BLISS_equalizer_sptr_work", (PyCFunction) _wrap_BLISS_equalizer_sptr_work, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
-		"BLISS_equalizer_sptr_work(BLISS_equalizer_sptr self, int noutput_items, gr_vector_const_void_star input_items, \n"
+	 { (char *)"BLISS_vector_conjugate_sptr___deref__", _wrap_BLISS_vector_conjugate_sptr___deref__, METH_VARARGS, (char *)"BLISS_vector_conjugate_sptr___deref__(BLISS_vector_conjugate_sptr self)"},
+	 { (char *)"delete_BLISS_vector_conjugate_sptr", _wrap_delete_BLISS_vector_conjugate_sptr, METH_VARARGS, (char *)"delete_BLISS_vector_conjugate_sptr(BLISS_vector_conjugate_sptr self)"},
+	 { (char *)"BLISS_vector_conjugate_sptr_general_work", (PyCFunction) _wrap_BLISS_vector_conjugate_sptr_general_work, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
+		"BLISS_vector_conjugate_sptr_general_work(BLISS_vector_conjugate_sptr self, int noutput_items, \n"
+		"    gr_vector_int ninput_items, gr_vector_const_void_star input_items, \n"
 		"    gr_vector_void_star output_items) -> int\n"
 		"\n"
-		"Params: (noutput_items, input_items, output_items)\n"
+		"Params: (noutput_items, ninput_items, input_items, output_items)\n"
 		""},
-	 { (char *)"BLISS_equalizer_sptr_history", _wrap_BLISS_equalizer_sptr_history, METH_VARARGS, (char *)"BLISS_equalizer_sptr_history(BLISS_equalizer_sptr self) -> unsigned int"},
-	 { (char *)"BLISS_equalizer_sptr_output_multiple", _wrap_BLISS_equalizer_sptr_output_multiple, METH_VARARGS, (char *)"BLISS_equalizer_sptr_output_multiple(BLISS_equalizer_sptr self) -> int"},
-	 { (char *)"BLISS_equalizer_sptr_relative_rate", _wrap_BLISS_equalizer_sptr_relative_rate, METH_VARARGS, (char *)"BLISS_equalizer_sptr_relative_rate(BLISS_equalizer_sptr self) -> double"},
-	 { (char *)"BLISS_equalizer_sptr_start", _wrap_BLISS_equalizer_sptr_start, METH_VARARGS, (char *)"BLISS_equalizer_sptr_start(BLISS_equalizer_sptr self) -> bool"},
-	 { (char *)"BLISS_equalizer_sptr_stop", _wrap_BLISS_equalizer_sptr_stop, METH_VARARGS, (char *)"BLISS_equalizer_sptr_stop(BLISS_equalizer_sptr self) -> bool"},
-	 { (char *)"BLISS_equalizer_sptr_nitems_read", (PyCFunction) _wrap_BLISS_equalizer_sptr_nitems_read, METH_VARARGS | METH_KEYWORDS, (char *)"BLISS_equalizer_sptr_nitems_read(BLISS_equalizer_sptr self, unsigned int which_input) -> uint64_t"},
-	 { (char *)"BLISS_equalizer_sptr_nitems_written", (PyCFunction) _wrap_BLISS_equalizer_sptr_nitems_written, METH_VARARGS | METH_KEYWORDS, (char *)"BLISS_equalizer_sptr_nitems_written(BLISS_equalizer_sptr self, unsigned int which_output) -> uint64_t"},
-	 { (char *)"BLISS_equalizer_sptr_detail", _wrap_BLISS_equalizer_sptr_detail, METH_VARARGS, (char *)"BLISS_equalizer_sptr_detail(BLISS_equalizer_sptr self) -> gr_block_detail_sptr"},
-	 { (char *)"BLISS_equalizer_sptr_set_detail", (PyCFunction) _wrap_BLISS_equalizer_sptr_set_detail, METH_VARARGS | METH_KEYWORDS, (char *)"BLISS_equalizer_sptr_set_detail(BLISS_equalizer_sptr self, gr_block_detail_sptr detail)"},
-	 { (char *)"BLISS_equalizer_sptr_name", _wrap_BLISS_equalizer_sptr_name, METH_VARARGS, (char *)"BLISS_equalizer_sptr_name(BLISS_equalizer_sptr self) -> string"},
-	 { (char *)"BLISS_equalizer_sptr_input_signature", _wrap_BLISS_equalizer_sptr_input_signature, METH_VARARGS, (char *)"BLISS_equalizer_sptr_input_signature(BLISS_equalizer_sptr self) -> gr_io_signature_sptr"},
-	 { (char *)"BLISS_equalizer_sptr_output_signature", _wrap_BLISS_equalizer_sptr_output_signature, METH_VARARGS, (char *)"BLISS_equalizer_sptr_output_signature(BLISS_equalizer_sptr self) -> gr_io_signature_sptr"},
-	 { (char *)"BLISS_equalizer_sptr_unique_id", _wrap_BLISS_equalizer_sptr_unique_id, METH_VARARGS, (char *)"BLISS_equalizer_sptr_unique_id(BLISS_equalizer_sptr self) -> long"},
-	 { (char *)"BLISS_equalizer_sptr_to_basic_block", _wrap_BLISS_equalizer_sptr_to_basic_block, METH_VARARGS, (char *)"BLISS_equalizer_sptr_to_basic_block(BLISS_equalizer_sptr self) -> gr_basic_block_sptr"},
-	 { (char *)"BLISS_equalizer_sptr_check_topology", (PyCFunction) _wrap_BLISS_equalizer_sptr_check_topology, METH_VARARGS | METH_KEYWORDS, (char *)"BLISS_equalizer_sptr_check_topology(BLISS_equalizer_sptr self, int ninputs, int noutputs) -> bool"},
-	 { (char *)"BLISS_equalizer_sptr_swigregister", BLISS_equalizer_sptr_swigregister, METH_VARARGS, NULL},
-	 { (char *)"equalizer", _wrap_equalizer, METH_VARARGS, (char *)"\n"
-		"equalizer() -> BLISS_equalizer_sptr\n"
+	 { (char *)"BLISS_vector_conjugate_sptr_history", _wrap_BLISS_vector_conjugate_sptr_history, METH_VARARGS, (char *)"BLISS_vector_conjugate_sptr_history(BLISS_vector_conjugate_sptr self) -> unsigned int"},
+	 { (char *)"BLISS_vector_conjugate_sptr_output_multiple", _wrap_BLISS_vector_conjugate_sptr_output_multiple, METH_VARARGS, (char *)"BLISS_vector_conjugate_sptr_output_multiple(BLISS_vector_conjugate_sptr self) -> int"},
+	 { (char *)"BLISS_vector_conjugate_sptr_relative_rate", _wrap_BLISS_vector_conjugate_sptr_relative_rate, METH_VARARGS, (char *)"BLISS_vector_conjugate_sptr_relative_rate(BLISS_vector_conjugate_sptr self) -> double"},
+	 { (char *)"BLISS_vector_conjugate_sptr_start", _wrap_BLISS_vector_conjugate_sptr_start, METH_VARARGS, (char *)"BLISS_vector_conjugate_sptr_start(BLISS_vector_conjugate_sptr self) -> bool"},
+	 { (char *)"BLISS_vector_conjugate_sptr_stop", _wrap_BLISS_vector_conjugate_sptr_stop, METH_VARARGS, (char *)"BLISS_vector_conjugate_sptr_stop(BLISS_vector_conjugate_sptr self) -> bool"},
+	 { (char *)"BLISS_vector_conjugate_sptr_nitems_read", (PyCFunction) _wrap_BLISS_vector_conjugate_sptr_nitems_read, METH_VARARGS | METH_KEYWORDS, (char *)"BLISS_vector_conjugate_sptr_nitems_read(BLISS_vector_conjugate_sptr self, unsigned int which_input) -> uint64_t"},
+	 { (char *)"BLISS_vector_conjugate_sptr_nitems_written", (PyCFunction) _wrap_BLISS_vector_conjugate_sptr_nitems_written, METH_VARARGS | METH_KEYWORDS, (char *)"BLISS_vector_conjugate_sptr_nitems_written(BLISS_vector_conjugate_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"BLISS_vector_conjugate_sptr_detail", _wrap_BLISS_vector_conjugate_sptr_detail, METH_VARARGS, (char *)"BLISS_vector_conjugate_sptr_detail(BLISS_vector_conjugate_sptr self) -> gr_block_detail_sptr"},
+	 { (char *)"BLISS_vector_conjugate_sptr_set_detail", (PyCFunction) _wrap_BLISS_vector_conjugate_sptr_set_detail, METH_VARARGS | METH_KEYWORDS, (char *)"BLISS_vector_conjugate_sptr_set_detail(BLISS_vector_conjugate_sptr self, gr_block_detail_sptr detail)"},
+	 { (char *)"BLISS_vector_conjugate_sptr_name", _wrap_BLISS_vector_conjugate_sptr_name, METH_VARARGS, (char *)"BLISS_vector_conjugate_sptr_name(BLISS_vector_conjugate_sptr self) -> string"},
+	 { (char *)"BLISS_vector_conjugate_sptr_input_signature", _wrap_BLISS_vector_conjugate_sptr_input_signature, METH_VARARGS, (char *)"BLISS_vector_conjugate_sptr_input_signature(BLISS_vector_conjugate_sptr self) -> gr_io_signature_sptr"},
+	 { (char *)"BLISS_vector_conjugate_sptr_output_signature", _wrap_BLISS_vector_conjugate_sptr_output_signature, METH_VARARGS, (char *)"BLISS_vector_conjugate_sptr_output_signature(BLISS_vector_conjugate_sptr self) -> gr_io_signature_sptr"},
+	 { (char *)"BLISS_vector_conjugate_sptr_unique_id", _wrap_BLISS_vector_conjugate_sptr_unique_id, METH_VARARGS, (char *)"BLISS_vector_conjugate_sptr_unique_id(BLISS_vector_conjugate_sptr self) -> long"},
+	 { (char *)"BLISS_vector_conjugate_sptr_to_basic_block", _wrap_BLISS_vector_conjugate_sptr_to_basic_block, METH_VARARGS, (char *)"BLISS_vector_conjugate_sptr_to_basic_block(BLISS_vector_conjugate_sptr self) -> gr_basic_block_sptr"},
+	 { (char *)"BLISS_vector_conjugate_sptr_check_topology", (PyCFunction) _wrap_BLISS_vector_conjugate_sptr_check_topology, METH_VARARGS | METH_KEYWORDS, (char *)"BLISS_vector_conjugate_sptr_check_topology(BLISS_vector_conjugate_sptr self, int ninputs, int noutputs) -> bool"},
+	 { (char *)"BLISS_vector_conjugate_sptr_swigregister", BLISS_vector_conjugate_sptr_swigregister, METH_VARARGS, NULL},
+	 { (char *)"vector_conjugate", _wrap_vector_conjugate, METH_VARARGS, (char *)"\n"
+		"vector_conjugate() -> BLISS_vector_conjugate_sptr\n"
 		"\n"
 		"<+description+>\n"
 		"\n"
@@ -6292,14 +6307,8 @@ static PyMethodDef SwigMethods[] = {
 
 /* -------- TYPE CONVERSION AND EQUIVALENCE RULES (BEGIN) -------- */
 
-static void *_p_gr_sync_decimatorTo_p_gr_sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr_sync_block *)  ((gr_sync_decimator *) x));
-}
-static void *_p_gr_sync_interpolatorTo_p_gr_sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr_sync_block *)  ((gr_sync_interpolator *) x));
-}
-static void *_p_BLISS_equalizerTo_p_gr_sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr_sync_block *)  ((BLISS_equalizer *) x));
+static void *_p_BLISS_vector_conjugateTo_p_gr_basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr_basic_block *) (gr_block *) ((BLISS_vector_conjugate *) x));
 }
 static void *_p_gr_sync_decimatorTo_p_gr_basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr_basic_block *) (gr_block *)(gr_sync_block *) ((gr_sync_decimator *) x));
@@ -6319,8 +6328,8 @@ static void *_p_gr_sync_interpolatorTo_p_gr_basic_block(void *x, int *SWIGUNUSED
 static void *_p_gr_top_blockTo_p_gr_basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr_basic_block *) (gr_hier_block2 *) ((gr_top_block *) x));
 }
-static void *_p_BLISS_equalizerTo_p_gr_basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr_basic_block *) (gr_block *)(gr_sync_block *) ((BLISS_equalizer *) x));
+static void *_p_BLISS_vector_conjugateTo_p_gr_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr_block *)  ((BLISS_vector_conjugate *) x));
 }
 static void *_p_gr_sync_decimatorTo_p_gr_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr_block *) (gr_sync_block *) ((gr_sync_decimator *) x));
@@ -6331,12 +6340,9 @@ static void *_p_gr_sync_blockTo_p_gr_block(void *x, int *SWIGUNUSEDPARM(newmemor
 static void *_p_gr_sync_interpolatorTo_p_gr_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr_block *) (gr_sync_block *) ((gr_sync_interpolator *) x));
 }
-static void *_p_BLISS_equalizerTo_p_gr_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr_block *) (gr_sync_block *) ((BLISS_equalizer *) x));
-}
-static swig_type_info _swigt__p_BLISS_equalizer = {"_p_BLISS_equalizer", "BLISS_equalizer *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_BLISS_vector_conjugate = {"_p_BLISS_vector_conjugate", "BLISS_vector_conjugate *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_allocator_type = {"_p_allocator_type", "allocator_type *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_boost__shared_ptrT_BLISS_equalizer_t = {"_p_boost__shared_ptrT_BLISS_equalizer_t", "boost::shared_ptr< BLISS_equalizer > *|BLISS_equalizer_sptr *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_boost__shared_ptrT_BLISS_vector_conjugate_t = {"_p_boost__shared_ptrT_BLISS_vector_conjugate_t", "boost::shared_ptr< BLISS_vector_conjugate > *|BLISS_vector_conjugate_sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr_basic_block_t = {"_p_boost__shared_ptrT_gr_basic_block_t", "boost::shared_ptr< gr_basic_block > *|gr_basic_block_sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr_block_detail_t = {"_p_boost__shared_ptrT_gr_block_detail_t", "boost::shared_ptr< gr_block_detail > *|gr_block_detail_sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr_block_t = {"_p_boost__shared_ptrT_gr_block_t", "boost::shared_ptr< gr_block > *|gr_block_sptr *", 0, 0, (void*)0, 0};
@@ -6354,11 +6360,12 @@ static swig_type_info _swigt__p_difference_type = {"_p_difference_type", "differ
 static swig_type_info _swigt__p_gr_basic_block = {"_p_gr_basic_block", "gr_basic_block *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr_sync_decimator = {"_p_gr_sync_decimator", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_gr_hier_block2 = {"_p_gr_hier_block2", 0, 0, 0, 0, 0};
+static swig_type_info _swigt__p_gr_sync_block = {"_p_gr_sync_block", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_gr_sync_interpolator = {"_p_gr_sync_interpolator", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_gr_top_block = {"_p_gr_top_block", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_gr_block = {"_p_gr_block", "gr_block *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_gr_sync_block = {"_p_gr_sync_block", "gr_sync_block *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr_vector_const_void_star = {"_p_gr_vector_const_void_star", "gr_vector_const_void_star *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_gr_vector_int = {"_p_gr_vector_int", "gr_vector_int *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr_vector_void_star = {"_p_gr_vector_void_star", "gr_vector_void_star *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gruel__rt_status_t = {"_p_gruel__rt_status_t", "enum gruel::rt_status_t *|gruel::rt_status_t *|gr_rt_status_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_long_long = {"_p_long_long", "int64_t *|long long *", 0, 0, (void*)0, 0};
@@ -6371,9 +6378,9 @@ static swig_type_info _swigt__p_unsigned_long_long = {"_p_unsigned_long_long", "
 static swig_type_info _swigt__p_value_type = {"_p_value_type", "value_type *", 0, 0, (void*)0, 0};
 
 static swig_type_info *swig_type_initial[] = {
-  &_swigt__p_BLISS_equalizer,
+  &_swigt__p_BLISS_vector_conjugate,
   &_swigt__p_allocator_type,
-  &_swigt__p_boost__shared_ptrT_BLISS_equalizer_t,
+  &_swigt__p_boost__shared_ptrT_BLISS_vector_conjugate_t,
   &_swigt__p_boost__shared_ptrT_gr_basic_block_t,
   &_swigt__p_boost__shared_ptrT_gr_block_detail_t,
   &_swigt__p_boost__shared_ptrT_gr_block_t,
@@ -6396,6 +6403,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_gr_sync_interpolator,
   &_swigt__p_gr_top_block,
   &_swigt__p_gr_vector_const_void_star,
+  &_swigt__p_gr_vector_int,
   &_swigt__p_gr_vector_void_star,
   &_swigt__p_gruel__rt_status_t,
   &_swigt__p_long_long,
@@ -6408,9 +6416,9 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_value_type,
 };
 
-static swig_cast_info _swigc__p_BLISS_equalizer[] = {  {&_swigt__p_BLISS_equalizer, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_BLISS_vector_conjugate[] = {  {&_swigt__p_BLISS_vector_conjugate, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_allocator_type[] = {  {&_swigt__p_allocator_type, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_boost__shared_ptrT_BLISS_equalizer_t[] = {  {&_swigt__p_boost__shared_ptrT_BLISS_equalizer_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_boost__shared_ptrT_BLISS_vector_conjugate_t[] = {  {&_swigt__p_boost__shared_ptrT_BLISS_vector_conjugate_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr_basic_block_t[] = {  {&_swigt__p_boost__shared_ptrT_gr_basic_block_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr_block_detail_t[] = {  {&_swigt__p_boost__shared_ptrT_gr_block_detail_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr_block_t[] = {  {&_swigt__p_boost__shared_ptrT_gr_block_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -6427,12 +6435,13 @@ static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0,
 static swig_cast_info _swigc__p_difference_type[] = {  {&_swigt__p_difference_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_sync_decimator[] = {{&_swigt__p_gr_sync_decimator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_hier_block2[] = {{&_swigt__p_gr_hier_block2, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr_sync_block[] = {{&_swigt__p_gr_sync_block, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_sync_interpolator[] = {{&_swigt__p_gr_sync_interpolator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_top_block[] = {{&_swigt__p_gr_top_block, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr_basic_block[] = {  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_basic_block, 0, 0, 0},  {&_swigt__p_gr_hier_block2, _p_gr_hier_block2To_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_basic_block, 0, 0},  {&_swigt__p_BLISS_equalizer, _p_BLISS_equalizerTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_block, _p_gr_blockTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_top_block, _p_gr_top_blockTo_p_gr_basic_block, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr_block[] = {  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_block, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gr_block, 0, 0},  {&_swigt__p_gr_block, 0, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_block, 0, 0},  {&_swigt__p_BLISS_equalizer, _p_BLISS_equalizerTo_p_gr_block, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr_sync_block[] = {  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_sync_block, 0, 0},  {&_swigt__p_gr_sync_block, 0, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_sync_block, 0, 0},  {&_swigt__p_BLISS_equalizer, _p_BLISS_equalizerTo_p_gr_sync_block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr_basic_block[] = {  {&_swigt__p_BLISS_vector_conjugate, _p_BLISS_vector_conjugateTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_basic_block, 0, 0, 0},  {&_swigt__p_gr_hier_block2, _p_gr_hier_block2To_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_block, _p_gr_blockTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_basic_block, 0, 0},  {&_swigt__p_gr_top_block, _p_gr_top_blockTo_p_gr_basic_block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr_block[] = {  {&_swigt__p_BLISS_vector_conjugate, _p_BLISS_vector_conjugateTo_p_gr_block, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_block, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gr_block, 0, 0},  {&_swigt__p_gr_block, 0, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_block, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_vector_const_void_star[] = {  {&_swigt__p_gr_vector_const_void_star, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr_vector_int[] = {  {&_swigt__p_gr_vector_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_vector_void_star[] = {  {&_swigt__p_gr_vector_void_star, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gruel__rt_status_t[] = {  {&_swigt__p_gruel__rt_status_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_long_long[] = {  {&_swigt__p_long_long, 0, 0, 0},{0, 0, 0, 0}};
@@ -6445,9 +6454,9 @@ static swig_cast_info _swigc__p_unsigned_long_long[] = {  {&_swigt__p_unsigned_l
 static swig_cast_info _swigc__p_value_type[] = {  {&_swigt__p_value_type, 0, 0, 0},{0, 0, 0, 0}};
 
 static swig_cast_info *swig_cast_initial[] = {
-  _swigc__p_BLISS_equalizer,
+  _swigc__p_BLISS_vector_conjugate,
   _swigc__p_allocator_type,
-  _swigc__p_boost__shared_ptrT_BLISS_equalizer_t,
+  _swigc__p_boost__shared_ptrT_BLISS_vector_conjugate_t,
   _swigc__p_boost__shared_ptrT_gr_basic_block_t,
   _swigc__p_boost__shared_ptrT_gr_block_detail_t,
   _swigc__p_boost__shared_ptrT_gr_block_t,
@@ -6470,6 +6479,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_gr_sync_interpolator,
   _swigc__p_gr_top_block,
   _swigc__p_gr_vector_const_void_star,
+  _swigc__p_gr_vector_int,
   _swigc__p_gr_vector_void_star,
   _swigc__p_gruel__rt_status_t,
   _swigc__p_long_long,

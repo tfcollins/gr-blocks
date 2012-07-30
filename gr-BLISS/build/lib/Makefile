@@ -160,29 +160,29 @@ gnuradio-BLISS/fast:
 	cd /home/traviscollins/git/blocks/gr-BLISS/build && $(MAKE) -f lib/CMakeFiles/gnuradio-BLISS.dir/build.make lib/CMakeFiles/gnuradio-BLISS.dir/build
 .PHONY : gnuradio-BLISS/fast
 
-BLISS_equalizer.o: BLISS_equalizer.cc.o
-.PHONY : BLISS_equalizer.o
+BLISS_vector_conjugate.o: BLISS_vector_conjugate.cc.o
+.PHONY : BLISS_vector_conjugate.o
 
 # target to build an object file
-BLISS_equalizer.cc.o:
-	cd /home/traviscollins/git/blocks/gr-BLISS/build && $(MAKE) -f lib/CMakeFiles/gnuradio-BLISS.dir/build.make lib/CMakeFiles/gnuradio-BLISS.dir/BLISS_equalizer.cc.o
-.PHONY : BLISS_equalizer.cc.o
+BLISS_vector_conjugate.cc.o:
+	cd /home/traviscollins/git/blocks/gr-BLISS/build && $(MAKE) -f lib/CMakeFiles/gnuradio-BLISS.dir/build.make lib/CMakeFiles/gnuradio-BLISS.dir/BLISS_vector_conjugate.cc.o
+.PHONY : BLISS_vector_conjugate.cc.o
 
-BLISS_equalizer.i: BLISS_equalizer.cc.i
-.PHONY : BLISS_equalizer.i
+BLISS_vector_conjugate.i: BLISS_vector_conjugate.cc.i
+.PHONY : BLISS_vector_conjugate.i
 
 # target to preprocess a source file
-BLISS_equalizer.cc.i:
-	cd /home/traviscollins/git/blocks/gr-BLISS/build && $(MAKE) -f lib/CMakeFiles/gnuradio-BLISS.dir/build.make lib/CMakeFiles/gnuradio-BLISS.dir/BLISS_equalizer.cc.i
-.PHONY : BLISS_equalizer.cc.i
+BLISS_vector_conjugate.cc.i:
+	cd /home/traviscollins/git/blocks/gr-BLISS/build && $(MAKE) -f lib/CMakeFiles/gnuradio-BLISS.dir/build.make lib/CMakeFiles/gnuradio-BLISS.dir/BLISS_vector_conjugate.cc.i
+.PHONY : BLISS_vector_conjugate.cc.i
 
-BLISS_equalizer.s: BLISS_equalizer.cc.s
-.PHONY : BLISS_equalizer.s
+BLISS_vector_conjugate.s: BLISS_vector_conjugate.cc.s
+.PHONY : BLISS_vector_conjugate.s
 
 # target to generate assembly for a file
-BLISS_equalizer.cc.s:
-	cd /home/traviscollins/git/blocks/gr-BLISS/build && $(MAKE) -f lib/CMakeFiles/gnuradio-BLISS.dir/build.make lib/CMakeFiles/gnuradio-BLISS.dir/BLISS_equalizer.cc.s
-.PHONY : BLISS_equalizer.cc.s
+BLISS_vector_conjugate.cc.s:
+	cd /home/traviscollins/git/blocks/gr-BLISS/build && $(MAKE) -f lib/CMakeFiles/gnuradio-BLISS.dir/build.make lib/CMakeFiles/gnuradio-BLISS.dir/BLISS_vector_conjugate.cc.s
+.PHONY : BLISS_vector_conjugate.cc.s
 
 # Help Target
 help:
@@ -198,9 +198,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... BLISS_equalizer.o"
-	@echo "... BLISS_equalizer.i"
-	@echo "... BLISS_equalizer.s"
+	@echo "... BLISS_vector_conjugate.o"
+	@echo "... BLISS_vector_conjugate.i"
+	@echo "... BLISS_vector_conjugate.s"
 .PHONY : help
 
 

@@ -1,2 +1,3 @@
-qa_BLISS 3 0.109834
+qa_vector_conjugate 0 0
 ---
+qa_vector_conjugate

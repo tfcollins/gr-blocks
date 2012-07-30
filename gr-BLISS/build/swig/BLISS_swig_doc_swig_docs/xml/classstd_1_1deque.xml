@@ -33,12 +33,12 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="273">
+      <node id="275">
         <label>T</label>
       </node>
-      <node id="272">
+      <node id="274">
         <label>std::deque&lt; T &gt;</label>
-        <childnode refid="273" relation="usage">
+        <childnode refid="275" relation="usage">
           <edgelabel>elements</edgelabel>
         </childnode>
       </node>

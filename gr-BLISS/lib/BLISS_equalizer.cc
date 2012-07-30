@@ -27,7 +27,11 @@
 #include <iostream>
 #include <stdio.h>
 #include <ncurses.h>
+//#include <gr_conjugate_cc.h>
+#include <complex>
+#include <fft/fft.h>
 
+using namespace std;
 
 BLISS_equalizer_sptr
 BLISS_make_equalizer ()
@@ -72,6 +76,30 @@ BLISS_equalizer::work (int noutput_items,
 	// Do <+signal processing+>
 	fprintf(stderr,"ITEMS: %d\n",noutput_items);
 	
+
+	//Find start of frame
+		//Use correlator
+	//Fastest cross-correlation is CORR=G(f) x H(f)* 
+	//if all real then H(f)* = H(-f)
+	int fft_size=4;
+	gr_complex preamble[4];	
+	preamble[0]=(10.0,2);
+	preamble[1]=(10.0,2); 
+	preamble[2]=(10.0,2); 
+	preamble[3]=(10.0,2); 
+
+	gr_complex correlation[fft_size];
+	//gr_complex   *dline = fft::malloc_complex(4);
+
+	//memset(dline, 0, INPUT_LEN*sizeof(gr_complex));
+	
+	for(int j=0;j<fft_size;j++){
+		correlation[j]=in[j]*conj(preamble[j]);
+		fprintf(stderr,"%f + %fj\n",real(correlation[j]), imag(correlation[j]));	
+	}	
+
+
+	//Compare know symbols to received and calculate channel estimate
 	for(int i=0;i<noutput_items;i++){
 		out[i]=in[i];
 		//fprintf(stderr,"%f\n",out[i]);

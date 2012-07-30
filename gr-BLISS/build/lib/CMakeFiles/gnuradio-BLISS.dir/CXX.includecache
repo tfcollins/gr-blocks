@@ -10,22 +10,20 @@
 gruel/attributes.h
 -
 
-../include/BLISS_equalizer.h
+../include/BLISS_vector_conjugate.h
 BLISS_api.h
 -
-gr_sync_block.h
+gr_block.h
 -
 
-/home/traviscollins/git/blocks/gr-BLISS/lib/BLISS_equalizer.cc
+/home/traviscollins/git/blocks/gr-BLISS/lib/BLISS_vector_conjugate.cc
 config.h
 /home/traviscollins/git/blocks/gr-BLISS/lib/config.h
 gr_io_signature.h
 -
-BLISS_equalizer.h
+BLISS_vector_conjugate.h
 -
-iostream
--
-stdio.h
+complex
 -
 
 /usr/local/include/gnuradio/gr_basic_block.h
@@ -84,12 +82,6 @@ gr_types.h
 gr_core_api.h
 -
 boost/shared_ptr.hpp
--
-
-/usr/local/include/gnuradio/gr_sync_block.h
-gr_core_api.h
--
-gr_block.h
 -
 
 /usr/local/include/gnuradio/gr_tags.h
