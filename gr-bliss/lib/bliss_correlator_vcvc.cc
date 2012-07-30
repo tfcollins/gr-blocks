@@ -76,6 +76,7 @@ bliss_correlator_vcvc::general_work (int noutput_items,
 //  if(is_unaligned()) {
     for (int i = 0; i < noi; i++){
       out[i] = in[i].real ();
+      out[i] = preamble[i]*conj(in[i]);
     }
     fprintf(stderr,"%f | %f\n",in[2].imag() ,out[2].imag());
 //  }
