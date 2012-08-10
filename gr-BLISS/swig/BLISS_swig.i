@@ -9,13 +9,13 @@
 
 
 %{
-//#include "BLISS_equalizer.h"
+#include "BLISS_equalizer.h"
 #include "BLISS_vector_conjugate.h"
 %}
 
 
-//GR_SWIG_BLOCK_MAGIC(BLISS,equalizer);
-//%include "BLISS_equalizer.h"
+GR_SWIG_BLOCK_MAGIC(BLISS,equalizer);
+%include "BLISS_equalizer.h"
 
 GR_SWIG_BLOCK_MAGIC(BLISS,vector_conjugate);
 %include "BLISS_vector_conjugate.h"

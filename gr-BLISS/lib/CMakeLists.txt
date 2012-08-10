@@ -20,9 +20,9 @@
 ########################################################################
 include(GrPlatform) #define LIB_SUFFIX
 
-#add_library(gnuradio-BLISS SHARED BLISS_equalizer.cc BLISS_vector_conjugate.cc )
+add_library(gnuradio-BLISS SHARED BLISS_equalizer.cc BLISS_vector_conjugate.cc )
 #add_library(gnuradio-BLISS SHARED BLISS_equalizer.cc )
-add_library(gnuradio-BLISS SHARED BLISS_vector_conjugate.cc )
+#add_library(gnuradio-BLISS SHARED BLISS_vector_conjugate.cc )
 target_link_libraries(gnuradio-BLISS ${Boost_LIBRARIES} ${GRUEL_LIBRARIES} ${GNURADIO_CORE_LIBRARIES})
 set_target_properties(gnuradio-BLISS PROPERTIES DEFINE_SYMBOL "gnuradio_BLISS_EXPORTS")
 

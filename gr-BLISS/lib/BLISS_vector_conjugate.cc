@@ -41,8 +41,8 @@ static const int MAX_OUT = 1;   // maximum number of output streams
 
 BLISS_vector_conjugate::BLISS_vector_conjugate() //(unsigned int vlen)
 	: gr_block ("vector_conjugate",
-		gr_make_io_signature ( MIN_IN, MAX_IN, sizeof (gr_complex)),
-		gr_make_io_signature ( MIN_IN, MAX_IN, sizeof (gr_complex)))
+		gr_make_io_signature ( MIN_IN, MAX_IN, sizeof (gr_complex)*1024),
+		gr_make_io_signature ( MIN_IN, MAX_IN, sizeof (gr_complex)*1024))
 {
 }
 
@@ -60,9 +60,10 @@ BLISS_vector_conjugate::general_work (int noutput_items,
 {
   const gr_complex *in = (const gr_complex *) input_items[0];
   gr_complex *out = (gr_complex *) output_items[0];
-//  int noi = noutput_items * d_vlen;
+  int noi = noutput_items * 1024;
+  
 
-  for (int i = 0; i < noutput_items; i++){
+  for (int i = 0; i < noi; i++){
       out[i] = conj(in[i]);
     }
 

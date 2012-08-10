@@ -27,6 +27,14 @@ gr_math.h
 -
 volk/volk.h
 -
+stdio.h
+-
+iostream
+-
+fstream
+-
+complex
+-
 
 /usr/local/include/gnuradio/gr_basic_block.h
 gr_core_api.h

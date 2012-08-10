@@ -1,5 +1,6 @@
 /usr/local/include/BLISS/BLISS_api.h
 /usr/local/include/BLISS/BLISS_equalizer.h
+/usr/local/include/BLISS/BLISS_vector_conjugate.h
 /usr/local/lib/libgnuradio-BLISS.so
 /usr/local/lib/python2.7/dist-packages/BLISS/_BLISS_swig.so
 /usr/local/lib/python2.7/dist-packages/BLISS/BLISS_swig.py
@@ -11,3 +12,4 @@
 /usr/local/lib/python2.7/dist-packages/BLISS/__init__.pyc
 /usr/local/lib/python2.7/dist-packages/BLISS/__init__.pyo
 /usr/local/share/gnuradio/grc/blocks/BLISS_equalizer.xml
+/usr/local/share/gnuradio/grc/blocks/BLISS_vector_conjugate.xml

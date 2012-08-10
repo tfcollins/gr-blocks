@@ -6,8 +6,8 @@ FILE(REMOVE_RECURSE
   "BLISS_swig.pyo"
   "BLISS_swigPYTHON_wrap.cxx"
   "BLISS_swig.py"
-  "BLISS_swig.tag"
   "BLISS_swig_doc.i"
+  "BLISS_swig.tag"
   "BLISS_swig_doc_swig_docs/xml/index.xml"
 )
 

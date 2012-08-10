@@ -10,20 +10,46 @@
 gruel/attributes.h
 -
 
-../include/BLISS_vector_conjugate.h
+../include/BLISS_equalizer.h
 BLISS_api.h
 -
-gr_block.h
+gr_sync_block.h
 -
 
-/home/traviscollins/git/blocks/gr-BLISS/lib/BLISS_vector_conjugate.cc
+/home/traviscollins/git/blocks/gr-BLISS/lib/BLISS_equalizer.cc
 config.h
 /home/traviscollins/git/blocks/gr-BLISS/lib/config.h
 gr_io_signature.h
 -
-BLISS_vector_conjugate.h
+BLISS_equalizer.h
+-
+iostream
+-
+stdio.h
+-
+ncurses.h
 -
 complex
+-
+fft/fft.h
+-
+fstream
+-
+armadillo
+-
+gr_math.h
+-
+
+/usr/local/include/gnuradio/fft/api.h
+gruel/attributes.h
+-
+
+/usr/local/include/gnuradio/fft/fft.h
+fft/api.h
+-
+gr_complex.h
+-
+boost/thread.hpp
 -
 
 /usr/local/include/gnuradio/gr_basic_block.h
@@ -64,6 +90,12 @@ gr_core_api.h
 gr_runtime_types.h
 -
 
+/usr/local/include/gnuradio/gr_math.h
+gr_core_api.h
+-
+gr_complex.h
+-
+
 /usr/local/include/gnuradio/gr_msg_accepter.h
 gr_core_api.h
 -
@@ -82,6 +114,12 @@ gr_types.h
 gr_core_api.h
 -
 boost/shared_ptr.hpp
+-
+
+/usr/local/include/gnuradio/gr_sync_block.h
+gr_core_api.h
+-
+gr_block.h
 -
 
 /usr/local/include/gnuradio/gr_tags.h

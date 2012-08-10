@@ -22,7 +22,7 @@
 ########################################################################
 install(FILES
     BLISS_api.h
-#    BLISS_equalizer.h
+    BLISS_equalizer.h
     BLISS_vector_conjugate.h DESTINATION include/BLISS
 #    BLISS_equalizer.h DESTINATION include/BLISS 
 

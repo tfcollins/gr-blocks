@@ -35,6 +35,7 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/BLISS" TYPE FILE FILES
     "/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_api.h"
+    "/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_equalizer.h"
     "/home/traviscollins/git/blocks/gr-BLISS/include/BLISS_vector_conjugate.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")

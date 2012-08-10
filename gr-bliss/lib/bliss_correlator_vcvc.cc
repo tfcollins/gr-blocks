@@ -27,6 +27,14 @@
 #include <gr_math.h>
 #include <volk/volk.h>
 #include <stdio.h>
+#include <iostream>
+#include <fstream>
+#include <complex>
+
+using namespace std;
+
+ifstream::pos_type size;
+complex<double> * memblock;
 
 
 bliss_correlator_vcvc_sptr
@@ -67,17 +75,34 @@ bliss_correlator_vcvc::general_work (int noutput_items,
   //consume_each (noutput_items);
   consume_each (noi);
 
-//  for (int i = 0; i < noutput_items; i++){
-//      out[i] = conj(in[i]);
-//    }
+  //LOAD Preamble FFT from file
+  ifstream file ("/home/traviscollins/data/preamble.txt", ios::in|ios::binary|ios::ate);
+  if (file.is_open())
+  {
+    size = file.tellg();
+    //memblock = malloc(sizeof(gr_complex)*size);
+    memblock = new complex<double> [size];
+    file.seekg (0, ios::beg);
+    file.read (memblock, size);
+    file.close();
+
+    std::cout << "the complete file content is in memory\n";
+
+    delete[] memblock;
+  }
+  else cout << "Unable to open file";
+
+  //Cross Correlate FFT with FFT of preamble
+  for (int i = 0; i < noi; i++){
+      //out[i] = in[i].real ();
+      out[i] = preamble[i]*conj(in[i]);
+  }
+
+  //Find Beginning of sequence 
+
   // Tell runtime system how many input items we consumed on
   // each input stream.
 
-//  if(is_unaligned()) {
-    for (int i = 0; i < noi; i++){
-      out[i] = in[i].real ();
-      out[i] = preamble[i]*conj(in[i]);
-    }
     fprintf(stderr,"%f | %f\n",in[2].imag() ,out[2].imag());
 //  }
 

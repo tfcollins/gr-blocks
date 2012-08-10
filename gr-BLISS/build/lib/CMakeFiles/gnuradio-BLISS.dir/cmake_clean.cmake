@@ -1,4 +1,5 @@
 FILE(REMOVE_RECURSE
+  "CMakeFiles/gnuradio-BLISS.dir/BLISS_equalizer.cc.o"
   "CMakeFiles/gnuradio-BLISS.dir/BLISS_vector_conjugate.cc.o"
   "libgnuradio-BLISS.pdb"
   "libgnuradio-BLISS.so"
